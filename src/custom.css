@@ -1,0 +1,32 @@
+.welcome_sec h2:before {
+    content: '';
+    width: 4px;
+    height: 100%;
+    background: #12a0b1;
+    position: absolute;
+    letter-spacing: 1px;
+    right: -16px;
+    top: 4px;
+}
+
+.border-1 {
+    border-width: 1px;
+  }
+
+.welcome_details h3:before {
+    content: '';
+    width: 45px;
+    height: 3px;
+    background: #f6ba18;
+    position: absolute;
+    top: 70px;
+}
+
+.we_are_opacity {
+    background: rgba(47, 45, 55, 0.2);
+}
+
+.we_are_since {
+    font-size: 1.625em;
+    letter-spacing: .03em;
+}
