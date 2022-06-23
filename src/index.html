@@ -17,7 +17,7 @@
   <script src="../jquery/jquery-3.6.0.js"></script>
   <script src="../slick/slick.min.js"></script>
   <script src="./main.js"></script>
-  
+
 
   <header>
 
@@ -325,12 +325,12 @@
   </div>
 
 
-  <div class="container-fluid bg-[url('../img/t-bg.jpg')] bg-no-repeat bg-cover">
+  <div class="container-fluid bg-[url('../img/t-bg.jpg')] bg-no-repeat bg-cover h-[636px]">
 
-    <div class="container mx-auto flex pt-16">
+    <div class="container mx-auto pt-16 grid grid-cols-12 gap-0">
 
       <!--====Experts===-->
-      <div class="w-[28%]">
+      <div class="col-start-2 col-span-4 ml-4">
         <h2 class="font-Raleway font-bold text-3xl">Эксперты</h2>
         <div class="experts_slider mb-6">
 
@@ -381,32 +381,46 @@
       </div>
 
       <!--====About us===-->
-      
-      <div class="w-[50%] ml-8">
+
+      <div class="col-span-6 col-start-6 ml-8">
         <h2 class="font-Raleway font-bold text-3xl mb-5">Немного о нас</h2>
         <div class="flex font-Raleway text-base font-medium">
-          <button class="tablinks font-Raleway text-base font-medium py-[10px] px-[65px] active" onclick="openTab(event, 'about_tab1')">О нас</button>          
-          <button class="tablinks font-Raleway text-base font-medium py-[10px] px-[55px]" onclick="openTab(event, 'about_tab2')">Экспертный совет</button>
-          <button class="tablinks font-Raleway text-base font-medium py-[10px] px-[95px]" onclick="openTab(event, 'about_tab3')">Консультации</button>
+          <button class="tablinks font-Raleway text-base font-medium py-[10px] px-[65px] active"
+            onclick="openTab(event, 'about_tab1')">О нас</button>
+          <button class="tablinks font-Raleway text-base font-medium py-[10px] px-[55px]"
+            onclick="openTab(event, 'about_tab2')">Экспертный совет</button>
+          <button class="tablinks font-Raleway text-base font-medium py-[10px] px-[95px]"
+            onclick="openTab(event, 'about_tab3')">Консультации</button>
         </div>
 
         <div id="about_tab1" class="tabcontent block">
-          <h3 class="font-OpenSans font-bold text-lg pt-[20px] pb-[10px] mt-[27px]">Центр защиты и развития бизнеса «Дело»</h3>
-          <p class="font-OpenSans text-[#898989]">Мы зарегистрированы 22 июля 2005 года. Членами организации являются более 500 человек.
-            Высшим органом управления организации является общее собрание. Председателем организации со дня основания является Шибченко Татьяна Викторовна.
-            В 2020 году большое внимание нами уделяется вопросам формирования команды предпринимателей и экспертов, готовых развиваться и передавать свой опыт ведения предпринимательской деятельности начинающим предпринимателям и вопросам организации работы отделений во всех муниципальных образованиях Волгоградской области.</p>
+          <h3 class="font-OpenSans font-bold text-lg pt-[20px] pb-[10px] mt-[27px]">Центр защиты и развития бизнеса
+            «Дело»</h3>
+          <p class="font-OpenSans text-[#898989]">Мы зарегистрированы 22 июля 2005 года. Членами организации являются
+            более 500 человек.
+            Высшим органом управления организации является общее собрание. Председателем организации со дня основания
+            является Шибченко Татьяна Викторовна.
+            В 2020 году большое внимание нами уделяется вопросам формирования команды предпринимателей и экспертов,
+            готовых развиваться и передавать свой опыт ведения предпринимательской деятельности начинающим
+            предпринимателям и вопросам организации работы отделений во всех муниципальных образованиях Волгоградской
+            области.</p>
         </div>
 
         <div id="about_tab2" class="tabcontent">
           <h3 class="font-OpenSans font-bold text-lg pt-[20px] pb-[10px] mt-[27px]">Экспертный совет</h3>
-          <p class="font-OpenSans text-[#898989]">При Центре «Дело» работает общественный Экспертный Совет по вопросам развития малого предпринимательства.
+          <p class="font-OpenSans text-[#898989]">При Центре «Дело» работает общественный Экспертный Совет по вопросам
+            развития малого предпринимательства.
             С помощью наших экспертов Вы сможете получить помощь по следующим направлениям:</p>
         </div>
 
         <div id="about_tab3" class="tabcontent">
           <h3 class="font-OpenSans font-bold text-lg pt-[20px] pb-[10px] mt-[27px]">Бесплатные консультации</h3>
-          <p class="font-OpenSans text-[#898989]">С 2008 года в Центре работает общественная приемная, куда ежемесячно обращаются не менее 50 жителей региона по проблемным, правовым вопросам ведения предпринимательской деятельности, развития собственного бизнеса, самозанятости.
-            Услуги включают в себя не только устные консультации, но и письменные расширенные, подготовку и разработку необходимых документов юридического характера, анализ документов и оптимизацию налогообложения, создание интернет сайтов, разработку рекламной компании и д.р.</p>
+          <p class="font-OpenSans text-[#898989]">С 2008 года в Центре работает общественная приемная, куда ежемесячно
+            обращаются не менее 50 жителей региона по проблемным, правовым вопросам ведения предпринимательской
+            деятельности, развития собственного бизнеса, самозанятости.
+            Услуги включают в себя не только устные консультации, но и письменные расширенные, подготовку и разработку
+            необходимых документов юридического характера, анализ документов и оптимизацию налогообложения, создание
+            интернет сайтов, разработку рекламной компании и д.р.</p>
         </div>
       </div>
     </div>
@@ -414,7 +428,100 @@
 
 
   <!--===Achievements===-->
-  
+  <div class="container-fluid bg-[#FAFBFC] pt-20">
+    <div class="container mx-auto">
+
+      <h2 class="font-Raleway font-bold text-3xl ml-32">Дипломы и награды</h2>
+      <div class="grid grid-cols-12 gap-0 mb-3">
+        <div class="ach_arrows col-span-1 col-start-11"></div>
+      </div>
+
+      <div class="achievements_slider px-40">
+
+        <div class="slide">
+          <img src="../img/ach22.jpg">
+        </div>
+
+        <div class="slide">
+          <img src="../img/ach2.jpg">
+        </div>
+
+        <div class="slide">
+          <img src="../img/ach3.jpg">
+        </div>
+
+        <div class="slide">
+          <img src="../img/ach4.jpg">
+        </div>
+
+        <div class="slide">
+          <img src="../img/ach5.jpg">
+        </div>
+
+        <div class="slide">
+          <img src="../img/ach6.jpg">
+        </div>
+
+        <div class="slide">
+          <img src="../img/ach7.jpg">
+        </div>
+
+        <div class="slide w-[180px] max-w-[180px] mr-32">
+          <img src="../img/ach8.jpg">
+        </div>
+
+        <div class="slide">
+          <img src="../img/ach9.jpg">
+        </div>
+
+        <div class="slide">
+          <img src="../img/ach10.jpg">
+        </div>
+
+        <div class="slide">
+          <img src="../img/ach11.jpg">
+        </div>
+
+        <div class="slide">
+          <img src="../img/ach12.jpg">
+        </div>
+
+        <div class="slide">
+          <img src="../img/ach13.jpg">
+        </div>
+
+        <div class="slide">
+          <img src="../img/ach14.jpg">
+        </div>
+
+        <div class="slide">
+          <img src="../img/ach15.jpg">
+        </div>
+
+        <div class="slide">
+          <img src="../img/ach17.jpg">
+        </div>
+
+        <div class="slide">
+          <img src="../img/ach18.jpg">
+        </div>
+
+        <div class="slide">
+          <img src="../img/ach19.jpg">
+        </div>
+
+        <div class="slide w-[180px] max-w-[180px] mr-32">
+          <img src="../img/ach20.jpg">
+        </div>
+
+        <div class="slide">
+          <img src="../img/ach21.jpg">
+        </div>
+
+      </div>
+    </div>
+
+  </div>
 
 
   <div class="mt-40 bg-[#1c222a]">
@@ -426,7 +533,7 @@
     </p>
   </div>
 
-  
+
 
 </body>
 

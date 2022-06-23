@@ -26,6 +26,20 @@ $(function(){
         pauseOnFocus: false
     })
 
+    $('.achievements_slider').slick({
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 3,
+      speed: 500,
+      draggable:  false,
+      dots: false,
+      autoplay: false,
+      arrows: true,
+      appendArrows: $('.ach_arrows'),
+      prevArrow: "<i class='fas fa-angle-left border-1 px-[7px] py-1 mr-1 text-gray-400 hover:text-black hover:border-[#f6ba18]'></i>",
+      nextArrow: "<i class='fas fa-angle-right border-1 px-[7px] py-1 text-gray-400 hover:text-black hover:border-[#f6ba18]'></i>"
+  })
+
 
     
 })
