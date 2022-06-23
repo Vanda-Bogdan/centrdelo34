@@ -5,7 +5,8 @@ module.exports = {
     fontFamily: {
       'header-top': ['Roboto', 'sans-serif'],
       'Raleway': ['Raleway', 'sans-serif'],
-      'OpenSans': ['Open Sans', 'sans-serif']
+      'OpenSans': ['Open Sans', 'sans-serif'],
+      'Serif': ['PT Serif', 'serif'],
     },
     backgroundImage: {     
     },
