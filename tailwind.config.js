@@ -3,9 +3,10 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'header-top': ['Roboto', 'sans-serif'],
+      'Roboto': ['Roboto', 'sans-serif'],
       'Raleway': ['Raleway', 'sans-serif'],
-      'OpenSans': ['Open Sans', 'sans-serif']
+      'OpenSans': ['Open Sans', 'sans-serif'],
+      'PTSerif': ['PT Serif', 'serif']
     },
     backgroundImage: {     
     },

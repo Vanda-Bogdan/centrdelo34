@@ -1,5 +1,5 @@
 $(function(){
-    $('.rev_slider').slick({
+    $('.main_slider').slick({
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -7,9 +7,11 @@ $(function(){
         cssEase: 'linear',
         speed: 1350,
         draggable: false,
-        appendArrows: $('.wrapper'),
-        prevArrow: "<img class='w-10 h-10 float-left' src='../img/left-arrow.png'>",
-        nextArrow: "<img class='w-10 h-10 float-right' src='../img/right-arrow.png'>"
+        appendArrows: $('.main_slider'),
+        prevArrow: "<img class='w-10 h-10 float-left absolute' src='../img/left-arrow.png'>",
+        nextArrow: "<img class='w-10 h-10 float-right absolute' src='../img/right-arrow.png'>",
+        autoplay: true,
+        autoplaySpeed: 10000
     })
 
     $('.experts_slider').slick({
@@ -37,7 +39,8 @@ $(function(){
       arrows: true,
       appendArrows: $('.ach_arrows'),
       prevArrow: "<i class='fas fa-angle-left border-1 px-[7px] py-1 mr-1 text-gray-400 hover:text-black hover:border-[#f6ba18]'></i>",
-      nextArrow: "<i class='fas fa-angle-right border-1 px-[7px] py-1 text-gray-400 hover:text-black hover:border-[#f6ba18]'></i>"
+      nextArrow: "<i class='fas fa-angle-right border-1 px-[7px] py-1 text-gray-400 hover:text-black hover:border-[#f6ba18]'></i>",
+      pauseOnFocus: true
   })
 
 
@@ -60,4 +63,17 @@ function openTab(evt, tabName) {
   }
 
 
+//counter observer
+var options = {
+  root: document.querySelector('#scrollArea'),
+  rootMargin: '0px',
+  threshold: 1.0
+}
+var callback = function(entries, observer) {
+  $('.timer').countTo();
+};
 
+var observer = new IntersectionObserver(callback, options);
+
+var target = document.querySelector('.timer');
+observer.observe(target);

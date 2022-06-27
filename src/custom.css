@@ -26,6 +26,14 @@
     background: rgba(47, 45, 55, 0.2);
 }
 
+.business_opacity{
+    background: rgba(23, 29, 38, 0.5);
+}
+
+.business_opacity2{
+    background: rgba(0, 0, 0, 0.45);
+}
+
 .we_are_since {
     font-size: 1.625em;
     letter-spacing: .03em;
@@ -73,3 +81,17 @@
 .fade-in { 
     animation: fadeIn 1.5s; 
 }
+
+
+.nav_link {
+    border-right: 1px dashed rgba(255, 255, 255, 0.4);
+}
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+  }
+
+  
+  

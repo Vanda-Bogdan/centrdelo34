@@ -17,6 +17,8 @@
   <script src="../jquery/jquery-3.6.0.js"></script>
   <script src="../slick/slick.min.js"></script>
   <script src="./main.js"></script>
+  <script src="../jquery/jquery.countTo.js"></script>
+
 
 
   <header>
@@ -26,7 +28,7 @@
 
       <div class="container px-44 flex justify-between flex-wrap mt-2 content-center mb-2">
 
-        <p class="font-sans font-header-top uppercase text-[#01763f] font-bold float-left mt-1">Волгоградский Центр
+        <p class="font-sans font-Roboto uppercase text-[#01763f] font-bold float-left mt-1">Волгоградский Центр
           защиты и
           развития бизнеса «Дело»</p>
 
@@ -83,33 +85,70 @@
 
   </header>
 
-  <!--===========SLIDER===========-->
-  <div class="wrapper content-center">
-    <div class="rev_slider bg-gray-500 flex z-0">
-      <div class="slide z-0">
-        <div class="slider_img flex justify-center">
-          <img src="../img/slider1.jpg">
-        </div>
-        <div class="slider_text flex justify-center">
 
+  <div class="container mx-auto z-[99] ">
+
+    <div id="navbar"
+      class="mx-44 font-Roboto font-bold text-[0.9378em] uppercase border-1 border-white bg-[#13A0B2] z-[99] relative flex content-center justify-between">
+
+      <div class="text-white flex">
+        <div class=" py-[18px] hover:text-black duration-300">
+          <a href="" class="float-left px-6 nav_link">Главная</a>
+        </div>
+        <div class=" py-[18px] hover:text-black duration-300">
+          <a href="" class="float-left px-6 nav_link">О центре</a>
+        </div>
+        <div class=" py-[18px] hover:text-black duration-300">
+          <a href="" class="float-left px-6 nav_link">Новости</a>
+        </div>
+        <div class=" py-[18px] hover:text-black duration-300">
+          <a href="" class="float-left px-6 nav_link">Поддержка бизнеса</a>
+        </div>
+        <div class=" py-[18px] hover:text-black duration-300">
+          <a href="" class="float-left px-6 nav_link">Наставничество</a>
+        </div>
+        <div class=" py-[18px] hover:text-black duration-300">
+          <a href="" class="float-left px-6">Контакты</a>
         </div>
       </div>
 
-      <div class="slide z-0">
-        <div class="slider_img flex justify-center">
-          <img src="../img/slider2.jpg">
-        </div>
-        <div class="slider_text flex justify-center">
-
-        </div>
-      </div>
-
-
+      <div class="bg-[#F6BB18] text-black hover:text-white hover:bg-black duration-300">
+        <a href="" class=" px-6 py-[18px]  block">Вступить</a>
+      </div>  
+      
+      
     </div>
+
   </div>
 
 
-  <div class="container flex mx-auto pt-10 px-52">
+  <!--===========SLIDER===========-->
+
+  <div class="main_slider bg-gray-500 flex z-0 relative -mt-[61px]">
+    <div class="slide z-0 w-full">
+      <div class="slider_img flex justify-center">
+        <img src="../img/slider1.jpg">
+      </div>
+      <div class="slider_text flex justify-center">
+
+      </div>
+    </div>
+
+    <div class="slide z-0">
+      <div class="slider_img flex justify-center">
+        <img src="../img/slider2.jpg">
+      </div>
+      <div class="slider_text flex justify-center">
+
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+  <div class="container flex mx-auto pt-10 px-52 mt-10">
 
     <div>
       <h2 class="uppercase font-Raleway font-bold text-lg text-right text-[#323232]">
@@ -140,7 +179,7 @@
       </div>
 
       <div class="group bg-[#fdfdfd] border-1 ml-36 pb-6 pt-2 hover:bg-[#12a0b1] transition duration-500">
-        <h3 class="welcome_details font-header-top text-lg font-bold pl-16 mb-6 mt-5">
+        <h3 class="welcome_details font-Roboto text-lg font-bold pl-16 mb-6 mt-5">
           <a class="text-[#337ab7] hover:text-[#23527c]" href="#">Правовая информация</a>
         </h3>
         <p class="text-[#898989] font-OpenSans pl-16 pt-3 pr-10 text-sm tracking-wider group-hover:text-[#e4e8e8]">
@@ -166,7 +205,7 @@
       </div>
 
       <div class="group bg-[#fdfdfd] border-1 ml-36 pb-6 pt-2 hover:bg-[#12a0b1] transition duration-500">
-        <h3 class="welcome_details font-header-top text-lg font-bold pl-16 mb-6 mt-5">
+        <h3 class="welcome_details font-Roboto text-lg font-bold pl-16 mb-6 mt-5">
           <a class="text-[#337ab7] hover:text-[#23527c]" href="#">Наши проекты</a>
         </h3>
         <p class="text-[#898989] font-OpenSans pl-16 pt-3 pr-10 text-sm tracking-wider group-hover:text-[#e4e8e8]">
@@ -189,7 +228,7 @@
       </div>
 
       <div class="group bg-[#fdfdfd] border-1 ml-36 pb-6 pt-2 hover:bg-[#12a0b1] transition duration-500">
-        <h3 class="welcome_details font-header-top text-lg font-bold pl-16 mb-6 mt-5">
+        <h3 class="welcome_details font-Roboto text-lg font-bold pl-16 mb-6 mt-5">
           <a class="text-[#337ab7] hover:text-[#23527c]" href="#">Правовая помощь. Судебная практика</a>
         </h3>
         <p class="text-[#898989] font-OpenSans pl-16 pt-3 pr-10 text-sm tracking-wider group-hover:text-[#e4e8e8]">
@@ -212,7 +251,7 @@
       </div>
 
       <div class="group bg-[#fdfdfd] border-1 ml-36 pb-6 pt-2 hover:bg-[#12a0b1] transition duration-500">
-        <h3 class="welcome_details font-header-top text-lg font-bold pl-16 mb-6 mt-5">
+        <h3 class="welcome_details font-Roboto text-lg font-bold pl-16 mb-6 mt-5">
           <a class="text-[#337ab7] hover:text-[#23527c]" href="#">Начинающие предприниматели и центр наставничества</a>
         </h3>
         <p class="text-[#898989] font-OpenSans pl-16 pt-3 pr-10 text-sm tracking-wider group-hover:text-[#e4e8e8]">
@@ -234,7 +273,7 @@
       </div>
 
       <div class="group bg-[#fdfdfd] border-1 ml-36 pb-6 pt-2 hover:bg-[#12a0b1] transition duration-500">
-        <h3 class="welcome_details font-header-top text-lg font-bold pl-16 mb-6 mt-5">
+        <h3 class="welcome_details font-Roboto text-lg font-bold pl-16 mb-6 mt-5">
           <a class="text-[#337ab7] hover:text-[#23527c]" href="#">Бизнес-планирование</a>
         </h3>
         <p class="text-[#898989] font-OpenSans pl-16 pt-3 pr-10 text-sm tracking-wider group-hover:text-[#e4e8e8]">
@@ -257,7 +296,7 @@
       </div>
 
       <div class="group bg-[#fdfdfd] border-1 ml-36 pb-6 pt-2 hover:bg-[#12a0b1] transition duration-500">
-        <h3 class="welcome_details font-header-top text-lg font-bold pl-16 mb-6 mt-5">
+        <h3 class="welcome_details font-Roboto text-lg font-bold pl-16 mb-6 mt-5">
           <a class="text-[#337ab7] hover:text-[#23527c]" href="#">Учебно-деловой центр «Дело»</a>
         </h3>
         <p class="text-[#898989] font-OpenSans pl-16 pt-3 pr-10 text-sm tracking-wider group-hover:text-[#e4e8e8]">
@@ -396,7 +435,8 @@
         <div id="about_tab1" class="tabcontent block">
           <h3 class="font-OpenSans font-bold text-lg pt-[20px] pb-[10px] mt-[27px]">Центр защиты и развития бизнеса
             «Дело»</h3>
-          <p class="font-OpenSans text-[#898989]">Мы зарегистрированы 22 июля 2005 года. Членами организации являются
+          <p class="font-OpenSans text-[#898989] leading-7 text-base pr-10">Мы зарегистрированы 22 июля 2005 года.
+            Членами организации являются
             более 500 человек.
             Высшим органом управления организации является общее собрание. Председателем организации со дня основания
             является Шибченко Татьяна Викторовна.
@@ -408,14 +448,16 @@
 
         <div id="about_tab2" class="tabcontent">
           <h3 class="font-OpenSans font-bold text-lg pt-[20px] pb-[10px] mt-[27px]">Экспертный совет</h3>
-          <p class="font-OpenSans text-[#898989]">При Центре «Дело» работает общественный Экспертный Совет по вопросам
+          <p class="font-OpenSans text-[#898989] leading-7 text-base pr-10">При Центре «Дело» работает общественный
+            Экспертный Совет по вопросам
             развития малого предпринимательства.
             С помощью наших экспертов Вы сможете получить помощь по следующим направлениям:</p>
         </div>
 
         <div id="about_tab3" class="tabcontent">
           <h3 class="font-OpenSans font-bold text-lg pt-[20px] pb-[10px] mt-[27px]">Бесплатные консультации</h3>
-          <p class="font-OpenSans text-[#898989]">С 2008 года в Центре работает общественная приемная, куда ежемесячно
+          <p class="font-OpenSans text-[#898989] leading-7 text-base pr-10">С 2008 года в Центре работает общественная
+            приемная, куда ежемесячно
             обращаются не менее 50 жителей региона по проблемным, правовым вопросам ведения предпринимательской
             деятельности, развития собственного бизнеса, самозанятости.
             Услуги включают в себя не только устные консультации, но и письменные расширенные, подготовку и разработку
@@ -524,17 +566,71 @@
   </div>
 
 
-  <div class="mt-40 bg-[#1c222a]">
-    <p class="float-left">
-      © Областная общественная организация Волгоградский центр защиты и развития бизнеса "Дело", Волгоград 2016 г
-    </p>
-    <p class="float-right">
-      Разработано: ООО «Ваш бизнес»
-    </p>
+  <!--===Small business===-->
+  <div class="bg-[url('../img/sm-bg.jpg')] h-[355px]">
+    <div class="w-full h-[355px] business_opacity">
+      <div class="container float-right w-[56%] h-[355px] business_opacity2">
+        <div class="ml-[58px] mt-[70px] text-white tracking-[.03em]">
+          <h2 class="uppercase text-[1.562em] font-semibold mb-[10px]">Мы помогаем малому бизнесу расти</h2>
+          <p class="mt-[7px] font-OpenSans italic text-lg mb-[23px]">Открываем, развиваем и защищаем бизнес на
+            протяжении 15 лет.</p>
+          <div class="flex font-OpenSans text-base">
+            <ul>
+              <li class="mt-[9px]"><i class="fas fa-arrow-circle-right text-sm mr-3"></i><a href="">Школы бизнеса
+                  «Дело»</a> </li>
+              <li class="mt-[9px]"><i class="fas fa-arrow-circle-right text-sm mr-3"></i><a href="">Правовая поддержка
+                  бизнеса</a></li>
+              <li class="mt-[9px]"><i class="fas fa-arrow-circle-right text-sm mr-3"></i><a href="">Финансовое
+                  планирование</a></li>
+            </ul>
+            <ul class="pl-[60px]">
+              <li class="mt-[9px]"><i class="fas fa-arrow-circle-right text-sm mr-3"></i><a href="">Обучающие тренинги,
+                  семинары</a></li>
+              <li class="mt-[9px]"><i class="fas fa-arrow-circle-right text-sm mr-3"></i><a href="">Социальное
+                  предпринимательство</a></li>
+              <li class="mt-[9px]"><i class="fas fa-arrow-circle-right text-sm mr-3"></i><a href="">IT-технологии</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
+  <!--===Some facts===-->
+  <div class="container-fluid bg-[#12a0b1]">
+    <div class="container mx-auto px-44 pt-[70px]">
+      <h2 class="font-Raleway font-bold text-[1.75em] text-[#323232] tracking-[.03em] mb-6">Мы можем гордиться, более чем:</h2>
+      <div class="flex">
+        <span class="timer font-PTSerif font-bold text-[3.86em] text-white" data-from="1" data-to="500" data-speed="5000" data-refresh-interval="50">500</span>
+        <p class="font-Raleway font-semibold text-[0.875em] uppercase text-white pt-[20px] tracking-[.03em] leading-[26px] pl-[27px] pr-[30px]">
+          Членов <br>Организации
+        </p>
 
+        <span class="timer font-PTSerif font-bold text-[3.86em] text-white" data-from="10" data-to="30" data-speed="5000" data-refresh-interval="50">30</span>
+        <p class="font-Raleway font-semibold text-[0.875em] uppercase text-white pt-[20px] tracking-[.03em] leading-[26px] pl-[27px] pr-[30px]">
+          Реализованных<br>Социальных проектов
+        </p>
 
+        <span class="timer font-PTSerif font-bold text-[3.86em] text-white" data-from="10" data-to="60" data-speed="5000" data-refresh-interval="50">60</span>
+        <p class="font-Raleway font-semibold text-[0.875em] uppercase text-white pt-[20px] tracking-[.03em] leading-[26px] pl-[27px] pr-[30px]">
+          Консультация<br>Ежемесячно
+        </p>
+
+        <span class="timer font-PTSerif font-bold text-[3.86em] text-white" data-from="10" data-to="70" data-speed="5000" data-refresh-interval="50">70</span>
+        <p class="font-Raleway font-semibold text-[0.875em] uppercase text-white pt-[20px] tracking-[.03em] leading-[26px] pl-[27px] pr-[30px]">
+          Действующих<br>Волонтеров
+        </p>
+      </div>
+
+      <h3 class="font-PTSerif text-white text-[1.75em] italic pb-[70px] leading-[1.1em] mt-10">Благодаря Центру «Дело» в 2019 году. зарегистрировано - более 80 предприятий <br>малого бизнеса.</h3>
+    </div>
+  </div>
+
+  <script src="./navbar.js"></script>
+  <script type="text/javascript">
+    
+  </script>
 </body>
 
 </html>
