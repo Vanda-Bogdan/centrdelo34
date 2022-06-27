@@ -1,12 +1,12 @@
 <!doctype html>
 <html>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../dist/output.css" rel="stylesheet">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="../dist/output.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="../slick/slick.css">
+		<link rel="stylesheet" href="../slick/slick.css">
   <link rel="stylesheet" href="../slick/slick-theme.css">
   <link rel="stylesheet" href="custom.css">
   <link rel="stylesheet" href="../fontawesome/css/all.css">
@@ -17,6 +17,7 @@
   <script src="../jquery/jquery-3.6.0.js"></script>
   <script src="../slick/slick.min.js"></script>
   <script src="./main.js"></script>
+
 
   <header>
 
@@ -323,49 +324,105 @@
 
   </div>
 
-  <i class="fa fa-vk text-black text-sm"></i>
 
+  <div class="container-fluid bg-[url('../img/t-bg.jpg')] bg-no-repeat bg-cover h-[636px]">
 
-  <div class="container-fluid bg-[url('../img/t-bg.jpg')] bg-no-repeat bg-cover">
-    <!--====Experts===-->
-    <div>
-      <h2>Эксперты</h2>
-      <div class="experts_slider">
+    <div class="container mx-auto pt-16 grid grid-cols-12 gap-0">
 
-        <div class="slide">
-          <div class="flex">
-            <img src="../img/experts_img1.jpg">
-            <div class="my-auto ml-8">
-              <p class="font-OpenSans text-lg font-bold tracking-wide">ООО Ваш бизнес</p>
-              <span>Зыков Дмитрий (Ген. директор)</span>
-              <ul class="flex justify-between w-20 text-[#337ab7] ">
-                <li><a href="https://vk.com/zykov_dmitriy"><i class="fab fa-vk hover:text-[#1e4a70]"></i></a></li>
-                <li><a href="mailto:zykov@business34.ru"><i class="far fa-envelope hover:text-[#1e4a70]"></i></a></li>
-                <li><a href="skype:vash-business?userinfo"><i class="fab fa-skype hover:text-[#1e4a70]"></i></a></li>
-                <li><a href="https://pandasmm.ru/"><i class="fab fa-internet-explorer hover:text-[#1e4a70]"></i></a>
-                </li>
-              </ul>
+      <!--====Experts===-->
+      <div class="col-start-2 col-span-4 ml-4">
+        <h2 class="font-Raleway font-bold text-3xl">Эксперты</h2>
+        <div class="experts_slider mb-6">
+
+          <div class="slide">
+            <div class="flex">
+              <img src="../img/experts_img1.jpg">
+              <div class="my-auto ml-8">
+                <p class="font-OpenSans text-lg font-bold tracking-wide">ООО Ваш бизнес</p>
+                <span>Зыков Дмитрий (Ген. директор)</span>
+                <ul class="flex justify-between w-20 text-[#337ab7] ">
+                  <li><a href="https://vk.com/zykov_dmitriy"><i class="fab fa-vk hover:text-[#1e4a70]"></i></a></li>
+                  <li><a href="mailto:zykov@business34.ru"><i class="far fa-envelope hover:text-[#1e4a70]"></i></a></li>
+                  <li><a href="skype:vash-business?userinfo"><i class="fab fa-skype hover:text-[#1e4a70]"></i></a></li>
+                  <li><a href="https://pandasmm.ru/"><i class="fab fa-internet-explorer hover:text-[#1e4a70]"></i></a>
+                  </li>
+                </ul>
+              </div>
             </div>
+            <p class="">
+              Мы консультируем предпринимателей по созданию и поддержка веб-сайтов, программному обеспечению и всему что
+              связанно с IT сферой.
+            </p>
+
           </div>
-          <p class="">
-            Мы консультируем предпринимателей по созданию и поддержка веб-сайтов, программному обеспечению и всему что
-            связанно с IT сферой.
-          </p>
+
+          <div class="slide">
+            <div class="flex">
+              <img src="../img/experts_img2.jpg">
+              <div class="my-auto ml-8">
+                <p class="font-OpenSans text-lg font-bold tracking-wide">ООО Ваш бизнес</p>
+                <span>Зыков Дмитрий (Ген. директор)</span>
+                <ul class="flex justify-between w-20 text-[#337ab7] ">
+                  <li><i class="fab fa-vk hover:text-[#1e4a70]"></i></li>
+                  <li><i class="far fa-envelope hover:text-[#1e4a70]"></i></li>
+                  <li><i class="fab fa-skype hover:text-[#1e4a70]"></i></li>
+                  <li><i class="fab fa-internet-explorer hover:text-[#1e4a70]"></i></li>
+                </ul>
+              </div>
+            </div>
+            <p class="">
+              Мы консультируем предпринимателей по созданию и поддержка веб-сайтов, программному обеспечению и всему что
+              связанно с IT сферой.
+            </p>
+
+          </div>
 
         </div>
-
-        <div></div>
-
       </div>
 
-    </div>
-  </div>
+      <!--====About us===-->
 
-  <div class="bg-[#12a0b1] py-[28px] px-[15px] mx-auto">
-    <div class="container mx-auto max-w-[1170px] p-0 text-center">
-      <p class="font-Serif italic text-[1.75em] text-[#fff] inline-block m-0 leading-[0px] pr-0 relative top-[5px] tracking-[0.03em]">У Вас есть вопросы или Вы хотите стать членом нашего центра? </p>
-      <a class="font-header-top font-medium uppercase text-[#282f39] inline-block bg-[#f6ba18] relative leading-[40px] pl-[27px] pr-[9px] text-[14px] ease-in-out tracking-[0.03em] rounded-[3px]" href="/">Свяжитесь с нами 
-        <i class="pl-[15px] pr-[7px] align-middle border-l-[1px] border-solid border-l-[#ffcd47] relative ml-[20px] text-[14px] fa fa-arrow-circle-right inline-block leading-[28px] after:w-[1px] after:h-[100%] after:bg-[#d7a41b] after:absolute after:left-[-2px] after:top-0"></i></a>
+      <div class="col-span-6 col-start-6 ml-8">
+        <h2 class="font-Raleway font-bold text-3xl mb-5">Немного о нас</h2>
+        <div class="flex font-Raleway text-base font-medium">
+          <button class="tablinks font-Raleway text-base font-medium py-[10px] px-[65px] active"
+            onclick="openTab(event, 'about_tab1')">О нас</button>
+          <button class="tablinks font-Raleway text-base font-medium py-[10px] px-[55px]"
+            onclick="openTab(event, 'about_tab2')">Экспертный совет</button>
+          <button class="tablinks font-Raleway text-base font-medium py-[10px] px-[95px]"
+            onclick="openTab(event, 'about_tab3')">Консультации</button>
+        </div>
+
+        <div id="about_tab1" class="tabcontent block">
+          <h3 class="font-OpenSans font-bold text-lg pt-[20px] pb-[10px] mt-[27px]">Центр защиты и развития бизнеса
+            «Дело»</h3>
+          <p class="font-OpenSans text-[#898989]">Мы зарегистрированы 22 июля 2005 года. Членами организации являются
+            более 500 человек.
+            Высшим органом управления организации является общее собрание. Председателем организации со дня основания
+            является Шибченко Татьяна Викторовна.
+            В 2020 году большое внимание нами уделяется вопросам формирования команды предпринимателей и экспертов,
+            готовых развиваться и передавать свой опыт ведения предпринимательской деятельности начинающим
+            предпринимателям и вопросам организации работы отделений во всех муниципальных образованиях Волгоградской
+            области.</p>
+        </div>
+
+        <div id="about_tab2" class="tabcontent">
+          <h3 class="font-OpenSans font-bold text-lg pt-[20px] pb-[10px] mt-[27px]">Экспертный совет</h3>
+          <p class="font-OpenSans text-[#898989]">При Центре «Дело» работает общественный Экспертный Совет по вопросам
+            развития малого предпринимательства.
+            С помощью наших экспертов Вы сможете получить помощь по следующим направлениям:</p>
+        </div>
+
+        <div id="about_tab3" class="tabcontent">
+          <h3 class="font-OpenSans font-bold text-lg pt-[20px] pb-[10px] mt-[27px]">Бесплатные консультации</h3>
+          <p class="font-OpenSans text-[#898989]">С 2008 года в Центре работает общественная приемная, куда ежемесячно
+            обращаются не менее 50 жителей региона по проблемным, правовым вопросам ведения предпринимательской
+            деятельности, развития собственного бизнеса, самозанятости.
+            Услуги включают в себя не только устные консультации, но и письменные расширенные, подготовку и разработку
+            необходимых документов юридического характера, анализ документов и оптимизацию налогообложения, создание
+            интернет сайтов, разработку рекламной компании и д.р.</p>
+        </div>
+      </div>
     </div>
   </div>
 
