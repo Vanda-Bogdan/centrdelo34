@@ -53,12 +53,15 @@ function openTab(evt, tabName) {
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
       tabcontent[i].style.display = "none";
+      tabcontent[i].className = tabcontent[i].className.replace(" fade", "");
     }
     tablinks = document.getElementsByClassName("tablinks");
     for (i = 0; i < tablinks.length; i++) {
       tablinks[i].className = tablinks[i].className.replace(" active", "");
+      
     }
     document.getElementById(tabName).style.display = "block";
+    document.getElementById(tabName).className += " fade";
     evt.currentTarget.className += " active";
   }
 

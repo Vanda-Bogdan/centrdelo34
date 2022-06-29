@@ -34,6 +34,10 @@
     background: rgba(0, 0, 0, 0.45);
 }
 
+.news_opacity{
+    background: rgba(40, 47, 57, 0.7);
+}
+
 .we_are_since {
     font-size: 1.625em;
     letter-spacing: .03em;
@@ -119,4 +123,30 @@
 
 .btn-1b:hover:after, .btn-1b:active:after {
     height: 100%;
+}
+
+
+.news_header h2:before{
+    content: '';
+    width: 45px;
+    height: 3px;
+    background: #f6ba18;
+    position: absolute;
+    top: 140px;
+    left: -2px;
+}
+
+
+.news_details:before{
+    content: '';
+    width: 2px;
+    height: 61px;
+    background: #12a0b1;
+    position: absolute;
+    left: 18px;
+    bottom: 27px;
+}
+
+.news:hover > .news_details:before{
+    background: #ffffff;
 }
