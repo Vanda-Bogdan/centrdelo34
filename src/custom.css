@@ -168,3 +168,36 @@
     background-image: url('../img/ln-bg.jpg');
     background-position: top;
 }
+
+.get_touch form input{
+    height: 46px;
+    border: 1px solid #eaeaea;
+    border-radius: 0;
+    background: #fff;
+    color: #6c6c6c;
+}
+
+.get_touch h2:before, .our_partner h2:before{
+    content: '';
+    width: 45px;
+    height: 3px;
+    background: #f6ba18;
+    position: absolute;
+    top: 40px;
+    left: -2px;
+}
+
+.get_touch i:after{
+    content: '';
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: -2px;
+    top: 0;
+    transition: all .3s ease;
+    background: #0A8491;
+}
+
+.get_touch form button.group:hover i:after {
+	background: transparent;
+}
