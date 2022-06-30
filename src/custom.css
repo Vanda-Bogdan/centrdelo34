@@ -201,3 +201,44 @@
 .get_touch form button.group:hover i:after {
 	background: transparent;
 }
+
+
+.menu > .sub-menu{
+
+    visibility: hidden;
+    transition-duration: 0ms;
+    top: 200%;
+    opacity: 0;
+    
+}
+
+.menu > .sub-menu > ul{
+    box-shadow: 0 0 16px rgb(0 0 0 / 11%);
+}
+
+.menu:hover > .sub-menu{
+
+    visibility: visible;
+
+    /*--tw-translate-y: -60px;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    transition-duration: 300ms;*/
+    top: 100%;
+    -webkit-transition: all 0.4s cubic-bezier(0.84, 0.35, 0.39, 0.74);
+	-o-transition: all 0.4s cubic-bezier(0.84, 0.35, 0.39, 0.74);
+	transition: all 0.4s cubic-bezier(0.84, 0.35, 0.39, 0.74);
+    opacity: 1;
+}
+
+.menu > .sub-menu::before{
+
+    content: '';
+	background: url('../img/arrow-up.png') no-repeat;
+	width: 28px;
+	height: 13px;
+	position: absolute;
+	top: 20px;
+	left: 45px;
+}
+
+

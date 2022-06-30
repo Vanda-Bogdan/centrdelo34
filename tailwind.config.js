@@ -8,7 +8,7 @@ module.exports = {
       'OpenSans': ['Open Sans', 'sans-serif'],
       'PTSerif': ['PT Serif', 'serif']
     },
-    backgroundImage: {     
+    backgroundImage: {
     },
     height: {
       'we_are_h': '31.875rem',
