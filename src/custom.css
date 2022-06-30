@@ -241,4 +241,19 @@
 	left: 45px;
 }
 
+.slick-slide.slick-current > .slider-text >.slider_h {
+    color: #f6ba18;
+    background-color: #0c1111;
+}
 
+.slick-slide > .slider-text > .slider_h{
+    color: #12a0b1;
+    background-color: #12a0b1;
+}
+
+@keyframes ani {
+    0% {transform: translateY(+150%);}
+    100% {transform: translateX(0);}
+}
+  
+  

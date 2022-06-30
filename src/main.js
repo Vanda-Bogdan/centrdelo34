@@ -7,9 +7,9 @@ $(function(){
         cssEase: 'linear',
         speed: 1350,
         draggable: false,
-        appendArrows: $('.main_slider'),
-        prevArrow: "<img class='w-10 h-10 float-left absolute' src='../img/left-arrow.png'>",
-        nextArrow: "<img class='w-10 h-10 float-right absolute' src='../img/right-arrow.png'>",
+        appendArrows: $('.arrows_sec'),
+        prevArrow: "<i class='fas fa-angle-left cursor-pointer group-hover:opacity-100 opacity-0 duration-500 float-left text-white text-2xl bg-black bg-opacity-50 hover:bg-opacity-100 ml-12 px-[14px] py-2'></i>",
+        nextArrow: "<i class='fas fa-angle-right cursor-pointer group-hover:opacity-100 opacity-0 duration-500 float-right text-white text-2xl bg-black bg-opacity-50 hover:bg-opacity-100 mr-12 px-[14px] py-2'></i>",
         autoplay: true,
         autoplaySpeed: 10000
     })

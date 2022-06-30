@@ -157,7 +157,7 @@
                     </a>
                   </li>
   
-                  <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex-auto">
+                  <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
                     <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
                         class="fas fa-chevron-right text-[10px] pr-2"></i>Начинающим предпринимателям</a>
                   </li>
@@ -221,28 +221,61 @@
 
   <!--===========SLIDER===========-->
 
-  <div class="main_slider bg-gray-500 flex z-0 relative -mt-[61px]">
-    <div class="slide z-0 w-full">
-      <div class="slider_img flex justify-center">
-        <img src="../img/slider1.jpg">
-      </div>
-      <div class="slider_text flex justify-center">
+  <div class="group">
+    <div class="main_slider bg-gray-500 flex z-0 relative -mt-[61px]">
+
+      <div class="slide z-0 w-full group">
+        <div class="slider_img">
+          <img class="w-full" src="../img/slider1.jpg">
+        </div>
+
+        <div class="slider_text absolute top-[40%] left-[40%]">
+          <div class="text-white font-Raleway text-[41px] font-extrabold tracking-[0] leading-[51px] slider_h">
+            Общественная приемная<br>и «горячая линия»
+          </div>
+          <p class="text-white font-normal text-[19px] tracking-[0] font-OpenSans italic mt-10">Мы готовы стать Вашими надежными помощниками и консультантами<br>во всех вопросах развития предпринимательской деятельности.</p>
+          <button type="submit" id="sendForm96"
+              class="group mt-[30px] py-[9px] pr-[9px] pl-[27px] font-Roboto font-medium 
+            uppercase leading-[30px] rounded-[3px] tracking-[.03em] text-[14px] bg-[#f6ba18] text-[#282f39] hover:bg-[#212831] hover:text-white duration-500">Бесплатные консультации
+              <i class="fa fa-arrow-circle-right ml-[20px] pl-[15px] pr-[7px] relative text-[16px] align-middle leading-[28px] uppercase tracking-[.03em]
+              hover:text-[#282f39] border-l-[1px] border-l-[#f6ba18] py-2"></i>
+            </button>
+        </div>
 
       </div>
+  
+      <div class="slide z-0">
+        <div class="slider_img">
+          <img class="w-full" src="../img/slider2.jpg">
+        </div>
+
+        <div class="slider_text absolute top-[40%] left-[40%]">
+          <div class="text-white font-Raleway text-[41px] font-extrabold tracking-[0] leading-[51px] slider_h">
+            Малое предпринимательство<br>защита и развитие
+          </div>
+          <p class="text-white font-normal text-[19px] tracking-[0] font-OpenSans italic mt-10">Областная общественная организация Волгоградский центр защиты<br> и развития бизнеса "Дело"</p>
+          <div class="flex">
+            <button class="group mt-[30px] py-[9px] pr-[9px] pl-[27px] font-Roboto font-medium 
+          uppercase leading-[30px] rounded-[3px] tracking-[.03em] text-[14px] bg-[#f6ba18] text-[#282f39] hover:bg-[#212831] hover:text-white duration-500"><a href="">Контакты</a> 
+            <i class="fa fa-arrow-circle-right ml-[20px] pl-[15px] pr-[7px] relative text-[16px] align-middle leading-[28px] uppercase tracking-[.03em]
+            hover:text-[#282f39] border-l-[1px] border-l-[#f6ba18]  py-2"></i>
+          </button>
+          <button class="group ml-8 mt-[30px] py-[9px] pr-[9px] pl-[27px] font-Roboto font-medium 
+          uppercase leading-[30px] rounded-[3px] tracking-[.03em] text-[14px] bg-[#12a0b1] text-[#282f39] hover:bg-[#212831] hover:text-white duration-500"><a href="">О нас</a>
+            <i class="fa fa-arrow-circle-right ml-[20px] pl-[15px] pr-[7px] relative text-[16px] align-middle leading-[28px] uppercase tracking-[.03em]
+            hover:text-[#282f39] border-l-[1px] border-l-[#8ec9cc]  py-2"></i>
+          </button>
+          </div>
+          
+        </div>
+      </div>
+  
     </div>
-
-    <div class="slide z-0">
-      <div class="slider_img flex justify-center">
-        <img src="../img/slider2.jpg">
-      </div>
-      <div class="slider_text flex justify-center">
-
-      </div>
-    </div>
-
-
+    <div class="arrows_sec relative -top-[372px] w-full">
   </div>
-
+  
+  
+  </div>
 
   <!--Welcome section-->
   <div class="welcome_sec container mx-auto max-w-[1170px] pt-10 mt-10 grid gap-0 pl-10">
@@ -598,7 +631,7 @@
 
 
   <!--===Achievements===-->
-  <div class="container-fluid bg-[#FAFBFC] pt-20">
+  <div class="container-fluid bg-[#FAFBFC] pt-20 pb-[87px]">
     <div class="container mx-auto">
 
       <h2 class="font-Raleway font-bold text-3xl ml-32">Дипломы и награды</h2>
