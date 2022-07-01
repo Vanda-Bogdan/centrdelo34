@@ -101,10 +101,17 @@
 
 
     <!--===Navbar===-->
-    <div class="container mx-auto z-[99] ">
+    <div id="back-nav" class="relative z-[98] -mb-[61px] w-full hidden h-[61px]">
+      <div class="w-[73%] bg-[#13A0B2] inline"> 
+      </div>
+      <!--Сюда ссылка туда же, куда и кнопка вступить!-->
+      <a class="w-[27%] inline bg-last-but" href=""></a>
+    </div>
+
+    <div class="container mx-auto max-w-[1170px] z-[99]">
 
       <div id="navbar"
-        class="mx-44 font-Roboto font-bold text-[0.9378em] uppercase border-1 border-white bg-[#13A0B2] z-[99] relative flex content-center justify-between">
+        class="font-Roboto font-bold text-[0.9378em] uppercase bg-[#13A0B2] z-[99] relative inline-flex">
 
         <div class="text-white flex">
           <div class=" py-[18px] hover:text-black duration-300">
@@ -214,19 +221,20 @@
           </div>
         </div>
 
-        <div class="bg-[#F6BB18] text-black hover:text-white hover:bg-black duration-300">
-          <a href="" class=" px-6 py-[18px]  block">Вступить</a>
+        <div class="last-but ml-24 z-[-2]">
+          <a href="" class="relative px-6 py-[18px] block text-[1.125em]">Вступить</a>
         </div>
 
       </div>
     </div>
+
   </header>
 
 
   <!--===========SLIDER===========-->
 
   <div class="group">
-    <div class="main_slider bg-gray-500 flex z-0 relative -mt-[61px]">
+    <div class="main_slider bg-gray-500 flex z-0 relative -mt-[67px]">
 
       <div class="slide z-0 w-full group">
         <div class="slider_img">
@@ -242,7 +250,7 @@
               class="group mt-[30px] py-[9px] pr-[9px] pl-[27px] font-Roboto font-medium 
             uppercase leading-[30px] rounded-[3px] tracking-[.03em] text-[14px] bg-[#f6ba18] text-[#282f39] hover:bg-[#212831] hover:text-white duration-500">Бесплатные консультации
               <i class="fa fa-arrow-circle-right ml-[20px] pl-[15px] pr-[7px] relative text-[16px] align-middle leading-[28px] uppercase tracking-[.03em]
-              hover:text-[#282f39] border-l-[1px] border-l-[#f6ba18] py-2"></i>
+               border-l-[1px] border-l-[#f6ba18] py-2"></i>
             </button>
         </div>
 
@@ -262,12 +270,12 @@
             <button class="group mt-[30px] py-[9px] pr-[9px] pl-[27px] font-Roboto font-medium 
           uppercase leading-[30px] rounded-[3px] tracking-[.03em] text-[14px] bg-[#f6ba18] text-[#282f39] hover:bg-[#212831] hover:text-white duration-500"><a href="">Контакты</a> 
             <i class="fa fa-arrow-circle-right ml-[20px] pl-[15px] pr-[7px] relative text-[16px] align-middle leading-[28px] uppercase tracking-[.03em]
-            hover:text-[#282f39] border-l-[1px] border-l-[#f6ba18]  py-2"></i>
+             border-l-[1px] border-l-[#f6ba18]  py-2"></i>
           </button>
           <button class="group ml-8 mt-[30px] py-[9px] pr-[9px] pl-[27px] font-Roboto font-medium 
           uppercase leading-[30px] rounded-[3px] tracking-[.03em] text-[14px] bg-[#12a0b1] text-[#282f39] hover:bg-[#212831] hover:text-white duration-500"><a href="">О нас</a>
             <i class="fa fa-arrow-circle-right ml-[20px] pl-[15px] pr-[7px] relative text-[16px] align-middle leading-[28px] uppercase tracking-[.03em]
-            hover:text-[#282f39] border-l-[1px] border-l-[#8ec9cc]  py-2"></i>
+             border-l-[1px] border-l-[#8ec9cc]  py-2"></i>
           </button>
           </div>
           
