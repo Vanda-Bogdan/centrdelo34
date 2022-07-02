@@ -26,13 +26,13 @@
     <div class="container-fluid bg-[#71C6D2] flex justify-center h-12">
 
 
-      <div class="container mx-auto max-w-[1170px] flex justify-between flex-wrap mt-2 content-center mb-2">
+      <div class="container mx-auto xl:max-w-[1170px] lg:max-w-[970px] lg:flex justify-between mt-2 mb-2 ">
 
-        <p class="font-sans font-Roboto uppercase text-[#01763f] font-bold float-left mt-1">Волгоградский Центр
+        <p class="font-sans font-Roboto uppercase text-[#01763f] font-bold xl:float-left mt-1 text-center">Волгоградский Центр
           защиты и
           развития бизнеса «Дело»</p>
 
-        <div class="float-right flex mb-1">
+        <div class="xl:float-right justify-center flex mb-1">
           <div class="text-white text-xl"><i class="fab fa-vk hover:text-[#01763f]"></i></div>
           <div class="text-white text-lg ml-5"><i class="fa fa-search hover:text-[#01763f]"></i></div>
         </div>
@@ -43,15 +43,16 @@
 
     <div class="container-fluid">
 
-      <div class="container mx-auto max-w-[1170px] justify-center grid sm:grid-rows-1 grid-flow-col gap-x-10 mt-9">
-        <div>
+      <div class="container mx-auto xl:max-w-[1170px] lg:max-w-[970px] justify-center grid grid-cols-12 gap-x-0 mt-7 grid-flow-row lg:grid-rows-1 md:grid-rows-3 grid-rows-4">
+
+        <div class="lg:col-start-1 row-start-1 sm:col-start-5 col-span-4 col-start-4 lg:pl-0 md:pl-4 ">
           <a href="index.html">
             <img src="../img/logo.png" alt="Центр защиты и развитя бизнеса Дело"
-              class="object-fill w-44 h-20 max-w-none">
+              class="max-w-none xl:w-44 lg:w-32">
           </a>
         </div>
 
-        <div class="flex">
+        <div class="lg:pt-2 lg:col-start-3 lg:row-start-1 md:pl-9 md:pt-8 md:row-start-2 md:col-start-3 sm:col-start-5 col-start-4 row-start-2 pt-8 flex">
           <i class="fas fa-map-marker-alt text-2xl pt-4 pr-4"></i>
           <div>
             <div class="text-base">400066, г. Волгоград,</div>
@@ -59,7 +60,7 @@
           </div>
         </div>
 
-        <div class="flex">
+        <div class="lg:pt-2 lg:col-start-6 lg:row-start-1 md:pl-6 md:pt-8 md:row-start-2 md:col-start-7 sm:col-start-5 col-start-4 row-start-3 flex">
           <i class="fas fa-phone-alt text-2xl pt-4 pr-6"></i>
           <div>
             <div class="w-44">
@@ -70,11 +71,10 @@
 
         </div>
 
-        <div>
+        <div class="lg:pl-0 lg:col-start-9 lg:row-start-1 md:pl-10 md:row-start-3 md:col-start-3 sm:col-start-3 row-start-4 col-start-3">
           <a href="index.html">
-            <img class="w-auto h-auto max-w-none" src="../img/baner-new-site.jpg"
-              alt="Социальный проект МОЕ ДЕЛО Формирование региональной системы защиты и поддержки субъектов малого предпринимательства, самозанятого населения Волгоградской области."
-              class="object-fill h-full w-10/12">
+            <img class="max-w-none xl:w-[360px] lg:w-[300px] md:w-[440px] sm:w-[400px] w-[300px]" src="../img/baner-new-site.jpg"
+              alt="Социальный проект МОЕ ДЕЛО Формирование региональной системы защиты и поддержки субъектов малого предпринимательства, самозанятого населения Волгоградской области.">
           </a>
         </div>
       </div>
@@ -82,17 +82,17 @@
     </div>
 
 
-    <div class="container-fluid bg-[#0a6773] mt-4 px-[15px] mx-auto">
+    <div class="container-fluid bg-[#0a6773] mt-4 mx-auto ">
 
-      <div class="container mx-auto max-w-[1170px] p-0 clear-both">
+      <div class="container mx-auto xl:max-w-[1170px] lg:max-w-[970px] md:max-w-[750px] sm:max-w-[530px] max-w-[300px] p-0 clear-both">
         <div class="mx-[-15px]">
-          <div class="text-[20px] py-[20px] m-0 text-center tracking-[.03em] font-medium leading-[1.1]" >
+          <div class="md:text-[20px] sm:text-[15px] text-[10px] py-[20px] m-0 text-center tracking-[.03em] font-medium leading-[1.1]">
             <a class="text-[#ffffff] hover:underline " href="http://bps.centrdelo34.ru/"
-            title="Социальный проект «Начинающие предприниматели - правовая поддержка, просвещение и наставничество»"
-            target="_blank">
-            Социальный проект «МОЕ ДЕЛО» Формирование региональной системы защиты и поддержки субъектов малого
-            предпринимательства, самозанятого населения Волгоградской области.
-            <span class="text-[#f6bb19]">Подробнее>></span></a>
+              title="Социальный проект «Начинающие предприниматели - правовая поддержка, просвещение и наставничество»"
+              target="_blank">
+              Социальный проект «МОЕ ДЕЛО» Формирование региональной системы защиты и поддержки субъектов малого
+              предпринимательства, самозанятого населения Волгоградской области.
+              <span class="text-[#f6bb19]">Подробнее>></span></a>
           </div>
         </div>
       </div>
@@ -101,130 +101,138 @@
 
 
     <!--===Navbar===-->
-    <div id="back-nav" class="relative z-[98] -mb-[61px] w-full hidden h-[61px]">
-      <div class="w-[73%] bg-[#13A0B2] inline"> 
+    <div>
+
+      <div id="back-nav" class="relative z-[98] xl:-mb-[61px] w-full hidden xl:h-[61px] h-[69px] -mb-[61px]">
+        <div class="w-[73%] bg-[#13A0B2] inline"> 
+        </div>
+        <!--Сюда ссылка туда же, куда и кнопка вступить!-->
+        <a class="w-[27%] inline bg-last-but" href=""></a>
       </div>
-      <!--Сюда ссылка туда же, куда и кнопка вступить!-->
-      <a class="w-[27%] inline bg-last-but" href=""></a>
-    </div>
 
-    <div class="container mx-auto max-w-[1170px] z-[99]">
 
-      <div id="navbar"
-        class="font-Roboto font-bold text-[0.9378em] uppercase bg-[#13A0B2] z-[99] relative inline-flex">
+      <div class="container mx-auto xl:max-w-[1170px] lg:max-w-[970px] md:max-w-[750px] max-w-none z-[99]">
 
-        <div class="text-white flex">
-          <div class=" py-[18px] hover:text-black duration-300">
-            <a href="" class="float-left px-6 nav_link">Главная</a>
+        <div id="navbar"
+          class="font-Roboto font-bold text-[0.9378em] uppercase bg-[#13A0B2] z-[99] relative inline-flex 
+          md:w-auto w-full">
+  
+          <div class="py-[18px] ml-6 xl:hidden xl:w-0 lg:w-[720px] md:w-[440px] w-[500px] block text-white">
+            <i class="fa fa-th text-3xl" aria-hidden="true"></i>
           </div>
-          <div class="menu py-[18px] relative">
-            <a href="" class="float-left px-6 nav_link hover:text-black duration-300">О центре</a>
 
-            <div class="sub-menu absolute top-[116px] w-[280px] pt-[28px]">
-              <ul class="uppercase font-normal tracking-[.03em] font-OpenSans text-[13px]">
 
-                <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
-                  <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href="">
-                    <i class="fas fa-chevron-right text-[10px] pr-1"></i>
-                    Проекты, Отчеты
-                  </a>
-                </li>
-
-                <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
-                  <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
-                      class="fas fa-chevron-right text-[10px] pr-2"></i>Фотогалерея</a>
-                </li>
-                <li class="bg-white text-[#242424] pl-[25px] pr-[20px] hover:text-[#F6BB19] duration-300 flex">
-                  <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
-                      class="fas fa-chevron-right text-[10px] pr-2"></i>Учредительные документы</a>
-                </li>
-                <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
-                  <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
-                      class="fas fa-chevron-right text-[10px] pr-2"></i>Вакансии</a>
-                </li>
-                <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
-
-                  <a class="block py-[16px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
-                      class="fas fa-chevron-right text-[10px] pr-2"></i>Наши партнеры</a>
-                </li>
-              </ul>
+          <div class="text-white xl:flex hidden py-[18px]">
+            <div class="  hover:text-black duration-300">
+              <a href="" class="float-left px-6 nav_link">Главная</a>
             </div>
-          </div>
-
-          <div class=" py-[18px] hover:text-black duration-300">
-            <a href="" class="float-left px-6 nav_link">Новости</a>
-          </div>
-          <div class="menu py-[18px] hover:text-black duration-300 relative">
-
-            <a href="" class="float-left px-6 nav_link">Поддержка бизнеса</a>
-            <div class="sub-menu absolute top-[116px] w-[750px] pt-[28px]">
-              <ul class="uppercase font-normal tracking-[.03em] font-OpenSans text-[13px] flex">
-
-                <div class="w-[49%]">
+            <div class="menu  relative">
+              <a href="" class="float-left px-6 nav_link hover:text-black duration-300">О центре</a>
+  
+              <div class="sub-menu absolute top-[116px] w-[280px] pt-[28px]">
+                <ul class="uppercase font-normal tracking-[.03em] font-OpenSans text-[13px]">
+  
                   <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
                     <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href="">
                       <i class="fas fa-chevron-right text-[10px] pr-1"></i>
-                      Бизнес-планирование
+                      Проекты, Отчеты
                     </a>
                   </li>
   
                   <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
                     <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
-                        class="fas fa-chevron-right text-[10px] pr-2"></i>Начинающим предпринимателям</a>
+                        class="fas fa-chevron-right text-[10px] pr-2"></i>Фотогалерея</a>
                   </li>
                   <li class="bg-white text-[#242424] pl-[25px] pr-[20px] hover:text-[#F6BB19] duration-300 flex">
                     <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
-                        class="fas fa-chevron-right text-[10px] pr-2"></i>Консультирование предпринимателей</a>
+                        class="fas fa-chevron-right text-[10px] pr-2"></i>Учредительные документы</a>
                   </li>
                   <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
-                    <a class="block py-[16px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
-                        class="fas fa-chevron-right text-[10px] pr-2"></i>Государственная поддержка</a>
-                  </li>
-                </div>
-
-                <div class="w-[49%]">
-                  <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
-
                     <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
-                        class="fas fa-chevron-right text-[10px] pr-2"></i>Правовая защита бизнеса</a>
+                        class="fas fa-chevron-right text-[10px] pr-2"></i>Вакансии</a>
                   </li>
-  
-                  <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
-  
-                    <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
-                        class="fas fa-chevron-right text-[10px] pr-2"></i>Библиотека предпринимателя</a>
-                  </li>
-  
-                  <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
-  
-                    <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
-                        class="fas fa-chevron-right text-[10px] pr-2"></i>школа бизнеса "Делл"</a>
-                  </li>
-  
                   <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
   
                     <a class="block py-[16px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
-                        class="fas fa-chevron-right text-[10px] pr-2"></i>Правовая информация</a>
+                        class="fas fa-chevron-right text-[10px] pr-2"></i>Наши партнеры</a>
                   </li>
-                </div>
-                
-                
-
-              </ul>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="hover:text-black duration-300">
+              <a href="" class="float-left px-6 nav_link">Новости</a>
+            </div>
+            <div class="menu  hover:text-black duration-300 relative">
+  
+              <a href="" class="float-left px-6 nav_link">Поддержка бизнеса</a>
+              <div class="sub-menu absolute top-[116px] w-[750px] pt-[28px]">
+                <ul class="uppercase font-normal tracking-[.03em] font-OpenSans text-[13px] flex">
+  
+                  <div class="w-[49%]">
+                    <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+                      <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href="">
+                        <i class="fas fa-chevron-right text-[10px] pr-1"></i>
+                        Бизнес-планирование
+                      </a>
+                    </li>
+    
+                    <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+                      <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
+                          class="fas fa-chevron-right text-[10px] pr-2"></i>Начинающим предпринимателям</a>
+                    </li>
+                    <li class="bg-white text-[#242424] pl-[25px] pr-[20px] hover:text-[#F6BB19] duration-300 flex">
+                      <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
+                          class="fas fa-chevron-right text-[10px] pr-2"></i>Консультирование предпринимателей</a>
+                    </li>
+                    <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+                      <a class="block py-[16px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
+                          class="fas fa-chevron-right text-[10px] pr-2"></i>Государственная поддержка</a>
+                    </li>
+                  </div>
+  
+                  <div class="w-[49%]">
+                    <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+  
+                      <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
+                          class="fas fa-chevron-right text-[10px] pr-2"></i>Правовая защита бизнеса</a>
+                    </li>
+    
+                    <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+    
+                      <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
+                          class="fas fa-chevron-right text-[10px] pr-2"></i>Библиотека предпринимателя</a>
+                    </li>
+    
+                    <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+    
+                      <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
+                          class="fas fa-chevron-right text-[10px] pr-2"></i>школа бизнеса "Делл"</a>
+                    </li>
+    
+                    <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+    
+                      <a class="block py-[16px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
+                          class="fas fa-chevron-right text-[10px] pr-2"></i>Правовая информация</a>
+                    </li>
+                  </div>
+                          
+                </ul>
+              </div>
+            </div>
+            <div class=" hover:text-black duration-300">
+              <a href="" class="float-left px-6 nav_link">Наставничество</a>
+            </div>
+            <div class=" hover:text-black duration-300">
+              <a href="" class="float-left px-6">Контакты</a>
             </div>
           </div>
-          <div class=" py-[18px] hover:text-black duration-300">
-            <a href="" class="float-left px-6 nav_link">Наставничество</a>
+  
+          <div class="last-but ml-24 z-[-2] md:float-none">
+            <a href="" class="relative px-6 py-[18px] block text-[1.125em]">Вступить</a>
           </div>
-          <div class=" py-[18px] hover:text-black duration-300">
-            <a href="" class="float-left px-6">Контакты</a>
-          </div>
+  
         </div>
-
-        <div class="last-but ml-24 z-[-2]">
-          <a href="" class="relative px-6 py-[18px] block text-[1.125em]">Вступить</a>
-        </div>
-
       </div>
     </div>
 
@@ -234,7 +242,7 @@
   <!--===========SLIDER===========-->
 
   <div class="group">
-    <div class="main_slider bg-gray-500 flex z-0 relative -mt-[67px]">
+    <div class="main_slider bg-gray-500 flex z-0 relative xl:-mt-[61px] lg:-mt-[69px] md:-mt-[69px]">
 
       <div class="slide z-0 w-full group">
         <div class="slider_img">
