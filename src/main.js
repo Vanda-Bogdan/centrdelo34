@@ -114,21 +114,3 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).className += " fade";
   evt.currentTarget.className += " active";
 }
-
-
-//counter observer
-var options = {
-  root: document.querySelector('#scrollArea'),
-  rootMargin: '0px',
-  threshold: 1.0
-}
-var callback = function (entries, observer) {
-  $('.timer').countTo();
-};
-
-var observer = new IntersectionObserver(callback, options);
-
-var target = document.querySelector('.timer');
-observer.observe(target);
-
-
