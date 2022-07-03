@@ -1,6 +1,13 @@
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {stickNavBar()};
-window.onresize = function() {UpdateOffsetPos()};
+window.onresize = function() {
+  if(!dontUpdate){
+    UpdateOffsetPos();
+  }
+  
+};
+
+var dontUpdate = false;
 
 // Get the navbar
 var navbar = document.getElementById("navbar");
@@ -13,12 +20,14 @@ var sticky = navbar.offsetTop;
 function stickNavBar() {
   
   if (window.pageYOffset >= sticky) {
+
     navbar.classList.add("sticky")
 
     back_nav.classList.add("sticky")
     back_nav.classList.add("flex")
     back_nav.classList.remove("hidden");
     //back_nav.classList.replace(" hidden"," flex")
+    dontUpdate=true;
 
   } else {
     navbar.classList.remove("sticky");
@@ -27,6 +36,7 @@ function stickNavBar() {
     back_nav.classList.add("hidden")
     back_nav.classList.remove("flex");
     //back_nav.classList.replace(" flex", " hidden")
+    dontUpdate=false;
   }
 }
 
