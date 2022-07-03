@@ -315,3 +315,7 @@
     z-index: -1;
     pointer-events: none;
 }
+
+.about_banner_opacity {
+    background: rgba(0, 0, 0, 0.6);
+}
