@@ -1,13 +1,24 @@
-.welcome_sec h2:before {
-    content: '';
-    width: 4px;
-    height: 100%;
-    background: #12a0b1;
-    position: absolute;
-    letter-spacing: 1px;
-    right: -16px;
-    top: 4px;
+@media (min-width: 768px) {
+    .welcome_sec h2:before {
+        content: '';
+        width: 4px;
+        height: 100%;
+        background: #12a0b1;
+        position: absolute;
+        letter-spacing: 1px;
+        right: -16px;
+        top: 4px;
+    }
 }
+
+
+@media (max-width: 768px) {
+    .welcome_sec h2:before {
+        display: none;
+    }
+}
+
+
 
 .border-1 {
     border-width: 1px;
