@@ -1,5 +1,6 @@
 // When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {stickNavBar()};
+window.onresize = function() {UpdateOffsetPos()};
 
 // Get the navbar
 var navbar = document.getElementById("navbar");
@@ -9,7 +10,8 @@ var back_nav = document.getElementById("back-nav");
 var sticky = navbar.offsetTop;
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
+function stickNavBar() {
+  
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
 
@@ -26,4 +28,10 @@ function myFunction() {
     back_nav.classList.remove("flex");
     //back_nav.classList.replace(" flex", " hidden")
   }
+}
+
+function UpdateOffsetPos() {
+    navbar = document.getElementById("navbar");
+    back_nav = document.getElementById("back-nav");
+    sticky = navbar.offsetTop;
 }
