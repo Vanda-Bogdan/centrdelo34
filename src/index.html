@@ -496,8 +496,8 @@
 
 
   <!-- we are -->
-  <div class="container-fluid bg-slate-500 flex h-we_are_h mt-10">
-    <div class="float-left w-1/2 bg-[url('../img/we_are_bg1.jpg')] bg-no-repeat bg-right bg-cover">
+  <div class="container-fluid bg-slate-500 lg:flex lg:h-we_are_h mt-10">
+    <div class="lg:float-left lg:w-1/2 w-full bg-[url('../img/we_are_bg1.jpg')] bg-no-repeat bg-right bg-cover">
 
       <div class="w_full h-we_are_h we_are_opacity relative">
         <h2 class="float-right mt-8 bg-[#12a0b1] font-OpenSans font-bold text-white we_are_since py-3 px-12">Мы работаем
@@ -509,10 +509,10 @@
 
     </div>
 
-    <div class="float-right w-1/2 bg-[url('../img/we_are_bg2.jpg')] bg-no-repeat bg-right bg-cover">
+    <div class="lg:float-right lg:w-1/2 w-full bg-[url('../img/we_are_bg2.jpg')] bg-no-repeat bg-right bg-cover lg:-mt-0 -mt-[20px]">
       <div class="pl-12">
         <h2 class="font-Raleway font-bold we_are_since mt-5 mb-3 pt-7 pb-9 text-white">Наши цели:</h2>
-        <p class="text-[#bcc1c7] w-[72%]"><span style="color:#f6ba18;">—&nbsp;</span>Объединение, защита прав и законных
+        <p class="text-[#bcc1c7] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] sm:text-[13px] text-[12px] lg:w-[72%] md:w-[80%]"><span style="color:#f6ba18;">—&nbsp;</span>Объединение, защита прав и законных
           интересов предпринимателей,
           жителей области.<br>
           <span style="color:#f6ba18;">—&nbsp;</span>Поддержка, развитие и общественное признание предпринимательства,
@@ -523,21 +523,21 @@
         </p>
 
         <h3 class="text-white text-2xl font-bold mt-5 mb-3">Почему мы:</h3>
-        <div class="flex items-center justify-between text-white mr-56 mt-6">
+        <div class="sm:flex items-center sm:justify-between text-white 2xl:mr-56 xl:mr-34 lg:mr-12 md:mr-52 mt-6 xl:text-[16px] text-[14px]  lg:pb-0 pb-2">
 
-          <div class="flex items-center">
-            <img class="w-11 h-11 min-w-max min-h-max align-baseline" src="../img/icon-1.png">
-            <p class="px-4 mr-2 ml-2">Команда<br>Профессионалов</p>
+          <div class="flex items-center pb-[16px] sm:pb-0">
+            <img src="../img/icon-1.png">
+            <p class="2xl:px-3 xl:px-2 mr-2 ml-2">Команда<br>Профессионалов</p>
           </div>
 
-          <div class="flex items-center">
+          <div class="flex items-center pb-[16px] sm:pb-0">
             <img src="../img/icon-2.png">
-            <p class="px-4 mr-2 ml-2">Экспертный<br>Совет</p>
+            <p class="2xl:px-3 xl:px-2 mr-2 ml-2">Экспертный<br>Совет</p>
           </div>
 
-          <div class="flex items-center">
+          <div class="flex items-center pb-[16px] sm:pb-0">
             <img src="../img/icon-3.png">
-            <p class="px-4 mr-2 ml-2">Бесплатные<br>Консультанции</p>
+            <p class="2xl:px-3 xl:px-2 mr-2 ml-2">Бесплатные<br>Консультанции</p>
           </div>
 
         </div>
@@ -547,31 +547,33 @@
   </div>
 
 
-  <div class="container-fluid bg-[url('../img/t-bg.jpg')] bg-no-repeat bg-cover h-[620px]">
+  <div class="container-fluid bg-[url('../img/t-bg.jpg')] bg-no-repeat bg-cover xl:h-[620px]">
 
-    <div class="container mx-auto pt-16 grid grid-cols-12 gap-0">
+    <div class="container mx-auto xl:max-w-[1170px] lg:max-w-[970px] md:max-w-[750px] max-w-none pt-16 grid grid-cols-12 xl:grid-rows-1 grid-rows-2 gap-0">
 
       <!--====Experts===-->
-      <div class="col-start-2 col-span-4 ml-4">
-        <h2 class="font-Raleway font-bold text-3xl">Эксперты</h2>
+      <div class="col-start-1 xl:col-span-5 col-span-12 ml-4">
+        <h2 class="font-Raleway font-bold text-3xl relative xl:left-0 sm:left-[45%] left-[30%]">Эксперты</h2>
+
+        <!-- slider -->
         <div class="experts_slider mb-6">
 
           <div class="slide">
-            <div class="flex">
-              <img src="../img/experts_img1.jpg">
+            <div class="xl:flex xl:text-justify text-center">
+              <img class="xl:block relative xl:left-0 sm:left-[45%] left-[30%] xl:pb-0 pb-[40px]" src="../img/experts_img1.jpg">
               <div class="my-auto ml-8">
-                <p class="font-OpenSans text-lg font-bold tracking-wide">ООО Ваш бизнес</p>
-                <span>Зыков Дмитрий (Ген. директор)</span>
-                <ul class="flex justify-between w-20 text-[#337ab7] ">
-                  <li><a href="https://vk.com/zykov_dmitriy"><i class="fab fa-vk hover:text-[#1e4a70]"></i></a></li>
-                  <li><a href="mailto:zykov@business34.ru"><i class="far fa-envelope hover:text-[#1e4a70]"></i></a></li>
-                  <li><a href="skype:vash-business?userinfo"><i class="fab fa-skype hover:text-[#1e4a70]"></i></a></li>
-                  <li><a href="https://pandasmm.ru/"><i class="fab fa-internet-explorer hover:text-[#1e4a70]"></i></a>
+                <p class="font-OpenSans lg:text-lg text-[16px] font-bold tracking-wide">ООО Ваш бизнес</p>
+                <span class="lg:text-[16px] text-[14px]">Зыков Дмитрий (Ген. директор)</span>
+                <ul class="flex xl:justify-between justify-center xl:w-20 text-[#337ab7] xl:my-0 my-5">
+                  <li class="xl:ml-0 ml-[6px]"><a href="https://vk.com/zykov_dmitriy"><i class="fab fa-vk hover:text-[#1e4a70]"></i></a></li>
+                  <li class="xl:ml-0 ml-[6px]"><a href="mailto:zykov@business34.ru"><i class="far fa-envelope hover:text-[#1e4a70]"></i></a></li>
+                  <li class="xl:ml-0 ml-[6px]"><a href="skype:vash-business?userinfo"><i class="fab fa-skype hover:text-[#1e4a70]"></i></a></li>
+                  <li class="xl:ml-0 ml-[6px]"><a href="https://pandasmm.ru/"><i class="fab fa-internet-explorer hover:text-[#1e4a70]"></i></a>
                   </li>
                 </ul>
               </div>
             </div>
-            <p class="">
+            <p class="xl:text-left text-center lg:text-[16px] text-[14px]">
               Мы консультируем предпринимателей по созданию и поддержка веб-сайтов, программному обеспечению и всему что
               связанно с IT сферой.
             </p>
@@ -579,20 +581,20 @@
           </div>
 
           <div class="slide">
-            <div class="flex">
-              <img src="../img/experts_img2.jpg">
+            <div class="xl:flex xl:text-justify text-center">
+              <img class="xl:block relative xl:left-0 sm:left-[45%] left-[30%] xl:pb-0 pb-[40px]" src="../img/experts_img2.jpg">
               <div class="my-auto ml-8">
                 <p class="font-OpenSans text-lg font-bold tracking-wide">ООО Ваш бизнес</p>
                 <span>Зыков Дмитрий (Ген. директор)</span>
-                <ul class="flex justify-between w-20 text-[#337ab7] ">
-                  <li><i class="fab fa-vk hover:text-[#1e4a70]"></i></li>
-                  <li><i class="far fa-envelope hover:text-[#1e4a70]"></i></li>
-                  <li><i class="fab fa-skype hover:text-[#1e4a70]"></i></li>
-                  <li><i class="fab fa-internet-explorer hover:text-[#1e4a70]"></i></li>
+                <ul class="flex xl:justify-between justify-center xl:w-20 text-[#337ab7] xl:my-0 my-5">
+                  <li class="xl:ml-0 ml-[6px]"><i class="fab fa-vk hover:text-[#1e4a70]"></i></li>
+                  <li class="xl:ml-0 ml-[6px]"><i class="far fa-envelope hover:text-[#1e4a70]"></i></li>
+                  <li class="xl:ml-0 ml-[6px]"><i class="fab fa-skype hover:text-[#1e4a70]"></i></li>
+                  <li class="xl:ml-0 ml-[6px]"><i class="fab fa-internet-explorer hover:text-[#1e4a70]"></i></li>
                 </ul>
               </div>
             </div>
-            <p class="">
+            <p class="xl:text-left text-center">
               Мы консультируем предпринимателей по созданию и поддержка веб-сайтов, программному обеспечению и всему что
               связанно с IT сферой.
             </p>
@@ -604,21 +606,21 @@
 
       <!--====About us===-->
 
-      <div class="col-span-6 col-start-6 ml-8">
+      <div class="xl:col-span-7 col-span-12 xl:col-start-6 col-start-1 ml-[28px]">
         <h2 class="font-Raleway font-bold text-3xl mb-5">Немного о нас</h2>
-        <div class="flex font-Raleway text-base font-medium">
-          <button class="tablinks font-Raleway text-base font-medium py-[10px] px-[65px] active"
+        <div class="md:flex xl:justify-start md:justify-center xl:w-auto w-full font-Raleway text-base font-medium">
+          <button class="tablinks font-Raleway text-base font-medium py-[10px] xl:px-[50px] lg:px-[80px] md:px-[60px] md:w-auto w-full md:my-0 my-1 active "
             onclick="openTab(event, 'about_tab1')">О нас</button>
-          <button class="tablinks font-Raleway text-base font-medium py-[10px] px-[55px]"
+          <button class="tablinks font-Raleway text-base font-medium py-[10px] xl:px-[40px] lg:px-[100px] md:px-[60px] md:w-auto w-full md:my-0 my-1"
             onclick="openTab(event, 'about_tab2')">Экспертный совет</button>
-          <button class="tablinks font-Raleway text-base font-medium py-[10px] px-[95px]"
+          <button class="tablinks font-Raleway text-base font-medium py-[10px] xl:px-[70px] lg:px-[120px] md:px-[60px] md:w-auto w-full md:my-0 my-1"
             onclick="openTab(event, 'about_tab3')">Консультации</button>
         </div>
 
         <div id="about_tab1" class="tabcontent block">
-          <h3 class="font-OpenSans font-bold text-lg pt-[20px] pb-[10px] mt-[27px]">Центр защиты и развития бизнеса
+          <h3 class="font-OpenSans font-bold md:text-lg sm:text-[16px] text-[14px] pt-[20px] pb-[10px] mt-[27px]">Центр защиты и развития бизнеса
             «Дело»</h3>
-          <p class="font-OpenSans text-[#898989] leading-7 text-base pr-10">Мы зарегистрированы 22 июля 2005 года.
+          <p class="font-OpenSans text-[#898989] leading-7 md:text-base sm:text-[13px] text-[11px] pr-10">Мы зарегистрированы 22 июля 2005 года.
             Членами организации являются
             более 500 человек.
             Высшим органом управления организации является общее собрание. Председателем организации со дня основания
@@ -630,46 +632,46 @@
         </div>
 
         <div id="about_tab2" class="tabcontent">
-          <h3 class="font-OpenSans font-bold text-lg pt-[20px] pb-[10px] mt-[27px]">Экспертный совет</h3>
-          <p class="font-OpenSans text-[#898989] leading-7 text-base pr-10">При Центре «Дело» работает общественный
+          <h3 class="font-OpenSans font-bold md:text-lg sm:text-[16px] text-[14px] pt-[20px] pb-[10px] mt-[27px]">Экспертный совет</h3>
+          <p class="font-OpenSans text-[#898989] leading-7 md:text-base sm:text-[13px] text-[11px] pr-10">При Центре «Дело» работает общественный
             Экспертный Совет по вопросам
             развития малого предпринимательства.
             С помощью наших экспертов Вы сможете получить помощь по следующим направлениям:</p>
-          <div class="flex mt-10">
+          <div class="flex mt-10 md:text-[16px]">
             <div>
               <div class="flex">
                 <i class="fas fa-arrow-circle-right pt-1"></i>
-                <span class="ml-4 font-OpenSans text-lg font-thin text-[#333]">Финансовое планирование</span>
+                <span class="ml-4 font-OpenSans md:text-lg sm:text-[16px] text-[11px] font-thin text-[#333]">Финансовое планирование</span>
               </div>
               <div class="flex">
                 <i class="fas fa-arrow-circle-right pt-1"></i>
-                <span class="ml-4 font-OpenSans text-lg font-thin text-[#333]">Маркетинг</span>
+                <span class="ml-4 font-OpenSans md:text-lg sm:text-[16px] text-[11px] font-thin text-[#333]">Маркетинг</span>
               </div>
               <div class="flex">
                 <i class="fas fa-arrow-circle-right pt-1"></i>
-                <span class="ml-4 font-OpenSans text-lg font-thin text-[#333]">Бизнес-планирование</span>
+                <span class="ml-4 font-OpenSans md:text-lg sm:text-[16px] text-[11px] font-thin text-[#333]">Бизнес-планирование</span>
               </div>
             </div>
-            <div class="ml-24">
+            <div class="md:ml-24 sm:ml-12 ml-1">
               <div class="flex">
                 <i class="fas fa-arrow-circle-right pt-1"></i>
-                <span class="ml-4 font-OpenSans text-lg font-thin text-[#333]">Интернет технологии</span>
+                <span class="ml-4 font-OpenSans md:text-lg sm:text-[16px] text-[11px] font-thin text-[#333]">Интернет технологии</span>
               </div>
               <div class="flex">
                 <i class="fas fa-arrow-circle-right pt-1"></i>
-                <span class="ml-4 font-OpenSans text-lg font-thin text-[#333]">Правовое обеспечение</span>
+                <span class="ml-4 font-OpenSans md:text-lg sm:text-[16px] text-[11px] font-thin text-[#333]">Правовое обеспечение</span>
               </div>
               <div class="flex">
                 <i class="fas fa-arrow-circle-right pt-1"></i>
-                <span class="ml-4 font-OpenSans text-lg font-thin text-[#333]">Подбор персонала</span>
+                <span class="ml-4 font-OpenSans md:text-lg sm:text-[16px] text-[11px] font-thin text-[#333]">Подбор персонала</span>
               </div>
             </div>
           </div>
         </div>
 
         <div id="about_tab3" class="tabcontent">
-          <h3 class="font-OpenSans font-bold text-lg pt-[20px] pb-[10px] mt-[27px]">Бесплатные консультации</h3>
-          <p class="font-OpenSans text-[#898989] leading-7 text-base pr-10">С 2008 года в Центре работает общественная
+          <h3 class="font-OpenSans font-bold md:text-lg sm:text-[16px] text-[14px] pt-[20px] pb-[10px] mt-[27px]">Бесплатные консультации</h3>
+          <p class="font-OpenSans text-[#898989] leading-7 md:text-base sm:text-[13px] text-[11px] pr-10">С 2008 года в Центре работает общественная
             приемная, куда ежемесячно
             обращаются не менее 50 жителей региона по проблемным, правовым вопросам ведения предпринимательской
             деятельности, развития собственного бизнеса, самозанятости.
@@ -684,14 +686,14 @@
 
   <!--===Achievements===-->
   <div class="container-fluid bg-[#FAFBFC] pt-20 pb-[87px]">
-    <div class="container mx-auto">
+    <div class="container mx-auto xl:max-w-[1170px] lg:max-w-[970px] md:max-w-[750px] max-w-none">
 
-      <h2 class="font-Raleway font-bold text-3xl ml-32">Дипломы и награды</h2>
+      <h2 class="font-Raleway font-bold text-3xl">Дипломы и награды</h2>
       <div class="grid grid-cols-12 gap-0 mb-3">
-        <div class="ach_arrows col-span-1 col-start-11"></div>
+        <div class="ach_arrows sm:col-span-2 col-span-5 sm:col-start-11 col-start-8"></div>
       </div>
 
-      <div class="achievements_slider px-40">
+      <div class="achievements_slider">
 
         <div class="slide">
           <img src="../img/ach22.jpg">
@@ -721,7 +723,7 @@
           <img src="../img/ach7.jpg">
         </div>
 
-        <div class="slide w-[180px] max-w-[180px] mr-32">
+        <div class="slide w-[180px] max-w-[180px] xl:mr-32">
           <img src="../img/ach8.jpg">
         </div>
 
@@ -765,7 +767,7 @@
           <img src="../img/ach19.jpg">
         </div>
 
-        <div class="slide w-[180px] max-w-[180px] mr-32">
+        <div class="slide w-[180px] max-w-[180px] xl:mr-32">
           <img src="../img/ach20.jpg">
         </div>
 
@@ -782,26 +784,26 @@
   <!--===Small business===-->
   <div class="bg-[url('../img/sm-bg.jpg')] h-[355px]">
     <div class="w-full h-[355px] business_opacity">
-      <div class="container float-right w-[56%] h-[355px] business_opacity2">
-        <div class="ml-[58px] mt-[70px] text-white tracking-[.03em]">
-          <h2 class="uppercase text-[1.562em] font-semibold mb-[10px]">Мы помогаем малому бизнесу расти</h2>
-          <p class="mt-[7px] font-OpenSans italic text-lg mb-[23px]">Открываем, развиваем и защищаем бизнес на
+      <div class="container mx-auto xl:max-w-[1170px] lg:max-w-[970px] md:max-w-[750px] max-w-none float-right sm:w-[56%] w-full h-[355px] business_opacity2">
+        <div class="lg:ml-[58px] md:ml-[40px] sm:ml-[40px] ml-[20px] mt-[70px] text-white tracking-[.03em]">
+          <h2 class="uppercase xl:text-[1.562em] lg:text-[20px] md:text-[18px] text-[14px] font-semibold mb-[10px]">Мы помогаем малому бизнесу расти</h2>
+          <p class="mt-[7px] font-OpenSans italic xl:text-lg lg:text-[16px] md:text-[14px] text-[12px] mb-[23px]">Открываем, развиваем и защищаем бизнес на
             протяжении 15 лет.</p>
-          <div class="flex font-OpenSans text-base">
+          <div class="sm:flex font-OpenSans xl:text-base lg:text-[14px] md:text-[12px] text-[12px]">
             <ul>
-              <li class="mt-[9px]"><i class="fas fa-arrow-circle-right text-sm mr-3"></i><a href="">Школы бизнеса
+              <li class="mt-[9px]"><i class="fas fa-arrow-circle-right sm:text-sm text-[10px] sm:mr-3 mr-1"></i><a href="">Школы бизнеса
                   «Дело»</a> </li>
-              <li class="mt-[9px]"><i class="fas fa-arrow-circle-right text-sm mr-3"></i><a href="">Правовая поддержка
+              <li class="mt-[9px]"><i class="fas fa-arrow-circle-right sm:text-sm text-[10px] sm:mr-3 mr-1"></i><a href="">Правовая поддержка
                   бизнеса</a></li>
-              <li class="mt-[9px]"><i class="fas fa-arrow-circle-right text-sm mr-3"></i><a href="">Финансовое
+              <li class="mt-[9px]"><i class="fas fa-arrow-circle-right sm:text-sm text-[10px] sm:mr-3 mr-1"></i><a href="">Финансовое
                   планирование</a></li>
             </ul>
-            <ul class="pl-[60px]">
-              <li class="mt-[9px]"><i class="fas fa-arrow-circle-right text-sm mr-3"></i><a href="">Обучающие тренинги,
+            <ul class="xl:pl-[60px] lg:pl-[35px] md:pl-[20px]">
+              <li class="mt-[9px]"><i class="fas fa-arrow-circle-right sm:text-sm text-[10px] sm:mr-3 mr-1"></i><a href="">Обучающие тренинги,
                   семинары</a></li>
-              <li class="mt-[9px]"><i class="fas fa-arrow-circle-right text-sm mr-3"></i><a href="">Социальное
+              <li class="mt-[9px]"><i class="fas fa-arrow-circle-right sm:text-sm text-[10px] sm:mr-3 mr-1"></i><a href="">Социальное
                   предпринимательство</a></li>
-              <li class="mt-[9px]"><i class="fas fa-arrow-circle-right text-sm mr-3"></i><a href="">IT-технологии</a>
+              <li class="mt-[9px]"><i class="fas fa-arrow-circle-right sm:text-sm text-[10px] sm:mr-3 mr-1"></i><a href="">IT-технологии</a>
               </li>
             </ul>
           </div>
@@ -812,53 +814,59 @@
 
   <!--===SOME FACTS===-->
   <div class="container-fluid bg-[#12a0b1]">
-    <div class="container mx-auto max-w-[1170px] pt-[70px]">
-      <h2 class="font-Raleway font-bold text-[1.75em] text-[#323232] tracking-[.03em] mb-6">Мы можем гордиться, более
+    <div class="container mx-auto xl:max-w-[1170px] lg:max-w-[970px] md:max-w-[750px] max-w-none pt-[70px]">
+      <h2 class="font-Raleway font-bold md:text-[1.75em] sm:text-[22px] text-[16px] text-[#323232] tracking-[.03em] mb-6 md:ml-0 sm:ml-[40px] ml-[20px]">Мы можем гордиться, более
         чем:</h2>
-      <div class="timers flex">
-        <span class="timer font-PTSerif font-bold text-[3.86em] text-white" data-from="1" data-to="500"
+      <div class="timers md:flex grid grid-cols-12 grid-rows-4">
+        <span class="timer font-PTSerif font-bold xl:text-[3.86em] lg:text-[50px] md:text-[35px] text-[38px] sm:col-start-5 col-start-3 row-start-1 text-white ml-5" data-from="1" data-to="500"
           data-speed="5000" data-refresh-interval="50">500</span>
         <p
-          class="font-Raleway font-semibold text-[0.875em] uppercase text-white pt-[20px] tracking-[.03em] leading-[26px] pl-[27px] pr-[30px]">
+          class="font-Raleway font-semibold xl:text-[0.875em] lg:text-[12px] md:text-[10px] text-[15px] uppercase text-white lg:pt-[20px] tracking-[.03em] lg:leading-[26px] lg:pl-[27px] lg:pr-[30px] pt-[10px] pl-[6px]
+          sm:col-start-7 col-start-6 row-start-1">
           Членов <br>Организации
         </p>
 
-        <span class="timer font-PTSerif font-bold text-[3.86em] text-white" data-from="10" data-to="30"
+        <span class="timer font-PTSerif font-bold xl:text-[3.86em] lg:text-[50px] md:text-[35px] text-[38px] sm:col-start-5 col-start-3 row-start-2 text-white ml-5" data-from="10" data-to="30"
           data-speed="5000" data-refresh-interval="50">30</span>
         <p
-          class="font-Raleway font-semibold text-[0.875em] uppercase text-white pt-[20px] tracking-[.03em] leading-[26px] pl-[27px] pr-[30px]">
+          class="font-Raleway font-semibold xl:text-[0.875em] lg:text-[12px] md:text-[10px] text-[15px] uppercase text-white lg:pt-[20px] tracking-[.03em] lg:leading-[26px] lg:pl-[27px] lg:pr-[30px] pt-[10px] pl-[6px]
+          sm:col-start-7 col-start-6 row-start-2">
           Реализованных<br>Социальных проектов
         </p>
 
-        <span class="timer font-PTSerif font-bold text-[3.86em] text-white" data-from="10" data-to="60"
+        <span class="timer font-PTSerif font-bold xl:text-[3.86em] lg:text-[50px] md:text-[35px] text-[38px] sm:col-start-5 col-start-3 row-start-3 text-white ml-5" data-from="10" data-to="60"
           data-speed="5000" data-refresh-interval="50">60</span>
         <p
-          class="font-Raleway font-semibold text-[0.875em] uppercase text-white pt-[20px] tracking-[.03em] leading-[26px] pl-[27px] pr-[30px]">
+          class="font-Raleway font-semibold xl:text-[0.875em] lg:text-[12px] md:text-[10px] text-[15px] uppercase text-white lg:pt-[20px] tracking-[.03em] lg:leading-[26px] lg:pl-[27px] lg:pr-[30px] pt-[10px] pl-[6px]
+          sm:col-start-7 col-start-6 row-start-3">
           Консультация<br>Ежемесячно
         </p>
 
-        <span class="timer font-PTSerif font-bold text-[3.86em] text-white" data-from="10" data-to="70"
+        <span class="timer font-PTSerif font-bold xl:text-[3.86em] lg:text-[50px] md:text-[35px] text-[38px] sm:col-start-5 col-start-3 row-start-4 text-white ml-5" data-from="10" data-to="70"
           data-speed="5000" data-refresh-interval="50">70</span>
         <p
-          class="font-Raleway font-semibold text-[0.875em] uppercase text-white pt-[20px] tracking-[.03em] leading-[26px] pl-[27px] pr-[30px]">
+          class="font-Raleway font-semibold xl:text-[0.875em] lg:text-[12px] md:text-[10px] text-[15px] uppercase text-white lg:pt-[20px] tracking-[.03em] lg:leading-[26px] lg:pl-[27px] lg:pr-[30px] pt-[10px] pl-[6px]
+          sm:col-start-7 col-start-6 row-start-4">
           Действующих<br>Волонтеров
         </p>
       </div>
 
-      <h3 class="font-PTSerif text-white text-[1.75em] italic pb-[70px] leading-[1.1em] mt-10">Благодаря Центру «Дело» в
-        2019 году. зарегистрировано - более 80 предприятий <br>малого бизнеса.</h3>
+      <h3 class="font-PTSerif text-white md:text-[1.75em] sm:text-[20px] text-[20px] italic pb-[70px] leading-[1.1em] mt-10 md:mx-0 mx-[40px]">Благодаря Центру «Дело» в
+        2019 году. зарегистрировано - более 80 предприятий <br class="xl:block hidden">малого бизнеса.</h3>
     </div>
   </div>
 
   <!--===OUR TEAM===-->
   <div class="container-fluid">
-    <div class="container mx-auto max-w-[1170px] mb-16">
+    <div class="container mx-auto xl:max-w-[1170px] lg:max-w-[970px] md:max-w-[750px] max-w-none mb-16">
       <h2 class="font-Raleway text-[#323232] font-bold text-[1.75em] tracking-[.03em] mt-16 mb-14">Наша команда</h2>
-      <div class="grid grid-cols-12 gap-8">
-        <div class="col-span-3 col-start-1 relative">
+      <div class="grid grid-cols-12 lg:gap-8 lg:grid-rows-1 grid-rows-4">
+
+        <!--teammate1-->
+        <div class="lg:col-span-3 lg:col-start-1 lg:row-start-1 row-start-1 lg:mb-0 mb-[50px] col-start-2 col-span-10">
 
           <div class="img-holder z-20">
-            <img src="../img/team1.jpg" alt="Шибченко Татьяна Викторовная">
+            <img class="lg:w-auto w-full" src="../img/team1.jpg" alt="Шибченко Татьяна Викторовная">
           </div>
 
           <div class="text-center bg-[#282F39] tracking-[.03em] leading-[22px] border-t-2 border-[#F6BA18] h-[117px]">
@@ -867,13 +875,13 @@
             <p class="text-white uppercase text-[13px] pb-[14px]">Председатель<br>&nbsp;</p>
           </div>
 
-
         </div>
 
-        <div class="col-span-3 col-start-4">
+        <!--teammate2-->
+        <div class="lg:col-span-3 lg:col-start-4 lg:row-start-1 row-start-2 lg:mb-0 mb-[50px] col-start-2 col-span-10">
 
           <div class="img-holder">
-            <img src="../img/team2.jpg" alt="Шибченко Татьяна Юрьевна">
+            <img class="lg:w-auto w-full" src="../img/team2.jpg" alt="Шибченко Татьяна Юрьевна">
           </div>
           <div class="text-center bg-[#282F39] tracking-[.03em] leading-[22px] border-t-2 border-[#F6BA18] h-[117px]">
             <h4 class="uppercase text-[#1AACBE] text-[18px] pt-[11px] mb-[2px] font-bold">Шибченко Татьяна<br>Юрьевна
@@ -881,13 +889,13 @@
             <p class="text-white uppercase text-[13px] pb-[14px]">Генеральный директор<br>&nbsp;</p>
           </div>
 
-
         </div>
 
-        <div class="col-span-3 col-start-7">
+        <!--teammate3-->
+        <div class="lg:col-span-3 lg:col-start-7 lg:row-start-1 row-start-3 lg:mb-0 mb-[50px] col-start-2 col-span-10">
 
           <div class="img-holder">
-            <img src="../img/team3.jpg" alt="Макевнина Эллина Вячеславовна">
+            <img class="lg:w-auto w-full" src="../img/team3.jpg" alt="Макевнина Эллина Вячеславовна">
           </div>
           <div class="text-center bg-[#282F39] tracking-[.03em] leading-[22px] border-t-2 border-[#F6BA18] h-[117px]">
             <h4 class="uppercase text-[#1AACBE] text-[18px] pt-[11px] mb-[2px] font-bold">Макевнина
@@ -895,20 +903,19 @@
             <p class="text-white uppercase text-[13px] pb-[14px]">Руководитель юридического<br>отдела</p>
           </div>
 
-
         </div>
 
-        <div class="col-span-3 col-start-10">
+        <!--teammate4-->
+        <div class="lg:col-span-3 lg:col-start-10 lg:row-start-1 row-start-4 lg:mb-0 mb-[50px] col-start-2 col-span-10">
 
           <div class="img-holder">
-            <img src="../img/team4.jpg" alt="Мирзабекова Ольга Фаритовна">
+            <img class="lg:w-auto w-full" src="../img/team4.jpg" alt="Мирзабекова Ольга Фаритовна">
           </div>
           <div class="text-center bg-[#282F39] tracking-[.03em] leading-[22px] border-t-2 border-[#F6BA18] h-[117px]">
             <h4 class="uppercase text-[#1AACBE] text-[18px] pt-[11px] mb-[2px] font-bold">Мирзабекова Ольга<br>Фаритовна
             </h4>
             <p class="text-white uppercase text-[13px] pb-[14px]">Главный бухгалтер<br>&nbsp;</p>
           </div>
-
 
         </div>
 
