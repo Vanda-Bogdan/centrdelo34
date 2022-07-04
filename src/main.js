@@ -10,7 +10,7 @@ $(function () {
     appendArrows: $('.arrows_sec'),
     prevArrow: "<i class='fas fa-angle-left cursor-pointer group-hover:opacity-100 opacity-0 duration-500 float-left text-white sm:text-2xl text-sm bg-black bg-opacity-50 hover:bg-opacity-100 ml-12 sm:px-[14px] px-[8px] sm:py-2 py-1'></i>",
     nextArrow: "<i class='fas fa-angle-right cursor-pointer group-hover:opacity-100 opacity-0 duration-500 float-right text-white sm:text-2xl text-sm bg-black bg-opacity-50 hover:bg-opacity-100 mr-12 sm:px-[14px] px-[8px] sm:py-2 py-1'></i>",
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 10000
   })
 
