@@ -319,3 +319,22 @@
 .about_banner_opacity {
     background: rgba(0, 0, 0, 0.6);
 }
+
+.news_h{
+    position: relative;
+}
+
+.news_h::before {
+    content: '';
+    width: 35px;
+    height: 2px;
+    background: #f6ba18;
+    position: absolute;
+    bottom: -1px;
+}
+
+.news_page_bg{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #ffffff, #f9f9f9);
+}
