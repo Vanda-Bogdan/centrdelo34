@@ -338,3 +338,44 @@
     height: 100%;
     background: linear-gradient(to right, #ffffff, #f9f9f9);
 }
+
+.business_tab{
+    transition: height 0.2s ease-out;
+}
+
+.visible{
+    display: block;
+    height: 100%;
+}
+
+.not_visible{
+    display: none;
+    height: 0;
+}
+
+.timer{
+    position: relative;
+}
+
+.timer::before{
+    
+    content: '';
+    width: 32px;
+    height: 5px;
+    background: #f6ba18;
+    position: absolute;
+    top: 5px;
+    left: 0px; 
+}
+
+@media (max-width: 1024px) {
+    .timer::before {
+        content: '';
+        width: 16px;
+        height: 3px;
+        background: #f6ba18;
+        position: absolute;
+        top: 4px;
+        left: 0px;
+    }
+}
