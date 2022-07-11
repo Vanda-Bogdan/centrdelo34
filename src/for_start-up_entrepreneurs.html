@@ -1,0 +1,569 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../slick/slick.css">
+    <link rel="stylesheet" href="../slick/slick-theme.css">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+</head>
+
+<body class="font-OpenSans text-[16px]">
+
+    <script src="../jquery/jquery-3.6.0.js"></script>
+    <script src="./main.js"></script>
+
+    
+
+    <header>
+
+        <div class="container-fluid bg-[#71C6D2] flex justify-center h-12">
+
+
+            <div class="container mx-auto xl:max-w-[1170px] lg:max-w-[970px] lg:flex justify-between mt-2 mb-2 ">
+
+                <p class="font-sans font-Roboto uppercase text-[#01763f] font-bold xl:float-left mt-1 text-center">
+                    Волгоградский
+                    Центр
+                    защиты и
+                    развития бизнеса «Дело»</p>
+
+                <div class="xl:float-right justify-center flex mb-1">
+                    <div class="text-white text-xl"><i class="fab fa-vk hover:text-[#01763f]"></i></div>
+                    <div class="text-white text-lg ml-5"><i class="fa fa-search hover:text-[#01763f]"></i></div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="container-fluid">
+
+            <div
+                class="container mx-auto xl:max-w-[1170px] lg:max-w-[970px] justify-center grid grid-cols-12 gap-x-0 mt-7 grid-flow-row lg:grid-rows-1 md:grid-rows-3 grid-rows-4">
+
+                <div class="lg:col-start-1 row-start-1 sm:col-start-5 col-span-4 col-start-4 lg:pl-0 md:pl-4 ">
+                    <a href="index.html">
+                        <img src="../img/logo.png" alt="Центр защиты и развитя бизнеса Дело"
+                            class="max-w-none xl:w-44 lg:w-32">
+                    </a>
+                </div>
+
+                <div
+                    class="lg:pt-2 lg:col-start-3 lg:row-start-1 md:pl-9 md:pt-8 md:row-start-2 md:col-start-3 sm:col-start-5 col-start-4 row-start-2 pt-8 flex">
+                    <i class="fas fa-map-marker-alt text-2xl pt-4 pr-4"></i>
+                    <div>
+                        <div class="text-base">400066, г. Волгоград,</div>
+                        <div class="text-sm text-[#9692a0] w-48">ул. Краснознаменская, 12</div>
+                    </div>
+                </div>
+
+                <div
+                    class="lg:pt-2 lg:col-start-6 lg:row-start-1 md:pl-6 md:pt-8 md:row-start-2 md:col-start-7 sm:col-start-5 col-start-4 row-start-3 flex">
+                    <i class="fas fa-phone-alt text-2xl pt-4 pr-6"></i>
+                    <div>
+                        <div class="w-44">
+                            <a href="tel:+ 7(8442) 33-45-07">+ 7(8442) 33-45-07</a>
+                        </div>
+                        <span class="text-[#9692a0] text-[1.1em]">delo@list.ru</span>
+                    </div>
+
+                </div>
+
+                <div
+                    class="lg:pl-0 lg:col-start-9 lg:row-start-1 md:pl-10 md:row-start-3 md:col-start-3 sm:col-start-3 row-start-4 col-start-3">
+                    <a href="index.html">
+                        <img class="max-w-none xl:w-[360px] lg:w-[300px] md:w-[440px] sm:w-[400px] w-[300px]"
+                            src="../img/baner-new-site.jpg"
+                            alt="Социальный проект МОЕ ДЕЛО Формирование региональной системы защиты и поддержки субъектов малого предпринимательства, самозанятого населения Волгоградской области.">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="container-fluid bg-[#0a6773] mt-4 mx-auto ">
+
+            <div
+                class="container mx-auto xl:max-w-[1170px] lg:max-w-[970px] md:max-w-[750px] sm:max-w-[530px] max-w-[300px] p-0 clear-both">
+                <div class="mx-[-15px]">
+                    <div
+                        class="md:text-[20px] sm:text-[15px] text-[10px] py-[20px] m-0 text-center tracking-[.03em] font-medium leading-[1.1]">
+                        <a class="text-[#ffffff] hover:underline " href="http://bps.centrdelo34.ru/"
+                            title="Социальный проект «Начинающие предприниматели - правовая поддержка, просвещение и наставничество»"
+                            target="_blank">
+                            Социальный проект «МОЕ ДЕЛО» Формирование региональной системы защиты и поддержки субъектов
+                            малого
+                            предпринимательства, самозанятого населения Волгоградской области.
+                            <span class="text-[#f6bb19]">Подробнее>></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--===Navbar===-->
+        <div>
+
+            <div id="back-nav" class="relative z-[98] xl:-mb-[61px] w-full hidden xl:h-[61px] h-[69px] -mb-[61px]">
+                <div class="w-[50%] bg-[#13A0B2] inline">
+                </div>
+                <!--Сюда ссылка туда же, куда и кнопка вступить!-->
+                <a class="w-[50%] inline bg-last-but" href=""></a>
+            </div>
+
+
+            <div class="container mx-auto xl:max-w-[1170px] lg:max-w-[970px] md:max-w-[750px] max-w-none z-[99]">
+
+                <div id="navbar" class="font-Roboto font-bold text-[0.9378em] uppercase bg-[#13A0B2] z-[99] relative inline-flex
+          md:w-auto w-full">
+
+                    <div class="py-[18px] ml-6 xl:hidden xl:w-0 lg:w-[720px] md:w-[440px] w-[500px] block text-white">
+                        <i class="fa fa-th text-3xl" aria-hidden="true"></i>
+                    </div>
+
+
+                    <div class="text-white xl:flex hidden py-[18px]">
+                        <div class="  hover:text-black duration-300">
+                            <a href="" class="float-left px-6 nav_link">Главная</a>
+                        </div>
+                        <div class="menu  relative">
+                            <a href="" class="float-left px-6 nav_link hover:text-black duration-300">О центре</a>
+
+                            <div class="sub-menu absolute top-[116px] w-[280px] pt-[28px]">
+                                <ul class="uppercase font-normal tracking-[.03em] font-OpenSans text-[13px]">
+
+                                    <li
+                                        class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+                                        <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]"
+                                            href="">
+                                            <i class="fas fa-chevron-right text-[10px] pr-1"></i>
+                                            Проекты, Отчеты
+                                        </a>
+                                    </li>
+
+                                    <li
+                                        class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+                                        <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]"
+                                            href=""><i class="fas fa-chevron-right text-[10px] pr-2"></i>Фотогалерея</a>
+                                    </li>
+                                    <li
+                                        class="bg-white text-[#242424] pl-[25px] pr-[20px] hover:text-[#F6BB19] duration-300 flex">
+                                        <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]"
+                                            href=""><i class="fas fa-chevron-right text-[10px] pr-2"></i>Учредительные
+                                            документы</a>
+                                    </li>
+                                    <li
+                                        class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+                                        <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]"
+                                            href=""><i class="fas fa-chevron-right text-[10px] pr-2"></i>Вакансии</a>
+                                    </li>
+                                    <li
+                                        class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+
+                                        <a class="block py-[16px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]"
+                                            href=""><i class="fas fa-chevron-right text-[10px] pr-2"></i>Наши
+                                            партнеры</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="hover:text-black duration-300">
+                            <a href="" class="float-left px-6 nav_link">Новости</a>
+                        </div>
+                        <div class="menu  hover:text-black duration-300 relative">
+
+                            <a href="" class="float-left px-6 nav_link">Поддержка бизнеса</a>
+                            <div class="sub-menu absolute top-[116px] w-[750px] pt-[28px]">
+                                <ul class="uppercase font-normal tracking-[.03em] font-OpenSans text-[13px] flex">
+
+                                    <div class="w-[49%]">
+                                        <li
+                                            class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+                                            <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]"
+                                                href="">
+                                                <i class="fas fa-chevron-right text-[10px] pr-1"></i>
+                                                Бизнес-планирование
+                                            </a>
+                                        </li>
+
+                                        <li
+                                            class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+                                            <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]"
+                                                href=""><i class="fas fa-chevron-right text-[10px] pr-2"></i>Начинающим
+                                                предпринимателям</a>
+                                        </li>
+                                        <li
+                                            class="bg-white text-[#242424] pl-[25px] pr-[20px] hover:text-[#F6BB19] duration-300 flex">
+                                            <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]"
+                                                href=""><i
+                                                    class="fas fa-chevron-right text-[10px] pr-2"></i>Консультирование
+                                                предпринимателей</a>
+                                        </li>
+                                        <li
+                                            class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+                                            <a class="block py-[16px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]"
+                                                href=""><i
+                                                    class="fas fa-chevron-right text-[10px] pr-2"></i>Государственная
+                                                поддержка</a>
+                                        </li>
+                                    </div>
+
+                                    <div class="w-[49%]">
+                                        <li
+                                            class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+
+                                            <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]"
+                                                href=""><i class="fas fa-chevron-right text-[10px] pr-2"></i>Правовая
+                                                защита
+                                                бизнеса</a>
+                                        </li>
+
+                                        <li
+                                            class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+
+                                            <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]"
+                                                href=""><i class="fas fa-chevron-right text-[10px] pr-2"></i>Библиотека
+                                                предпринимателя</a>
+                                        </li>
+
+                                        <li
+                                            class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+
+                                            <a class="block pt-[16px] pb-[5px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]"
+                                                href=""><i class="fas fa-chevron-right text-[10px] pr-2"></i>школа
+                                                бизнеса
+                                                "Делл"</a>
+                                        </li>
+
+                                        <li
+                                            class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+
+                                            <a class="block py-[16px] text-[13px] w-full border-b-[1px] border-b-[#EBEBEB]"
+                                                href=""><i class="fas fa-chevron-right text-[10px] pr-2"></i>Правовая
+                                                информация</a>
+                                        </li>
+                                    </div>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class=" hover:text-black duration-300">
+                            <a href="" class="float-left px-6 nav_link">Наставничество</a>
+                        </div>
+                        <div class=" hover:text-black duration-300">
+                            <a href="" class="float-left px-6">Контакты</a>
+                        </div>
+                    </div>
+
+                    <div class="last-but ml-24 z-[-2] md:float-none">
+                        <a href="" class="relative px-6 py-[18px] block text-[1.125em]">Вступить</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- ======= breadcrumbs ======= -->
+    <div
+        class="mx-auto h-[244px] xl:-mt-[61px] lg:-mt-[69px] md:-mt-[69px] p-0 bg-[url('../img/banner-bg.jpeg')] bg-no-repeat bg-center">
+        <div class="about_banner_opacity h-[244px] relative">
+            <div class="container mx-auto p-0 xl:max-w-[1170px] lg:max-w-[970px] md:max-w-[750px] max-w-none">
+                <div class="text-center pt-[120px]">
+
+                    <ul class="p-0 mb-[20px]">
+                        <li
+                            class="text-[#fff] font-OpenSans italic text-[0.875em] font-semibold tracking-[.03em] inline-block ml-[3px] mt-[25px]">
+                            Вы здесь: &nbsp;
+                        </li>
+
+                        <li
+                            class="text-[#fff] font-OpenSans italic text-[0.875em] font-semibold tracking-[.03em] inline-block ml-[3px] mt-[25px] before:px-[5px] before:text-[#ccc] before:content-['/\00a0']">
+                            <a href="/index.php" class="!text-[1em]">
+                                <span>
+                                    Главная
+                                </span>
+                            </a>
+                        </li>
+
+                        <li
+                            class="text-[#fff] font-OpenSans italic text-[0.875em] font-semibold tracking-[.03em] inline-block ml-[3px] mt-[25px] before:px-[5px] before:text-[#ccc] before:content-['/\00a0']">
+                            <span>
+                                О центре
+                            </span>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--CONTENT-->
+
+    <div class="container sm:mx-auto mx-[10px] xl:max-w-[1170px] lg:max-w-[970px] md:max-w-[750px] max-w-none">
+
+
+        <p class="mt-2 mb-[10px]">
+            <b>Официальные сайты Государственных структур</b>
+        </p>
+        <ul class="mb-[10px]">
+            <li>Сайт (<a class="text-[#337ab7] hover:text-[#23527c]" href="http://pravo.fso.gov.ru/index.html">http://pravo.fso.gov.ru/index.html</a>) Официальный интернет-портал правовой информации</li>
+            <li>Сайт (<a class="text-[#337ab7] hover:text-[#23527c]" href="http://www.gosuslugi.ru/">http://www.gosuslugi.ru/</a>) Портал государственных и муниципальных услуг</li>
+        </ul>
+        <p class="text-[14px] leading-[26px] tracking-[.03em]">
+            Перед началом осуществления предпринимательской деятельности начинающий предприниматель стоит перед выбором организационно-правовой формы, необходимо понимать важность и серьезность принятия данного решения.  Поэтому следует иметь представление о всех формах и выбрать оптимальный вариант, принимая во внимание то, каким бизнесом вы будете заниматься, насколько широко он будет представлен географически, сколько партнеров будут участвовать в нем и т.д.
+        </p>
+
+        <h2 class="for_start-up_ent_h2 pb-[13px] mt-[40px] mb-[50px] font-Raleway text-[#323232] sm:text-[26px] text-[20px] font-bold text-center tracking-[.03em] relative">Какой режим налогооблажения выбрать</h2>
+
+        <!-- list1 -->
+        <h2 class="for_start-up_ent_h2 pb-[13px] mt-[20px] mb-[10px] font-Raleway text-[#323232] sm:text-[26px] text-[20px] font-bold text-center tracking-[.03em] relative">ОСНО</h2>
+        <div class="rounded border-[#ddd] border-[1px] mt-[5px] text-[#333]">
+            <div class="bg-[#F5F5F5] ">
+                <span class="accordion py-[10px] px-[15px] block cursor-pointer leading-[1.1em]">
+                    <span class="tracking-[.03em] sm:text-[16px] text-[14px]">Условия применения</span>
+                    <i class="fas fa-plus-circle sm:text-[16px] text-[14px]"></i>
+                </span>
+            </div>
+            <div class="accordion_tab border-t-[1px] border-t-[#ddd]">
+                <div class="p-[15px] mt-[20px] mb-[10px] leading-[26px] tracking-[.03em] sm:text-[16px] text-[14px]">Ограничений нет</div>
+            </div>
+        </div>
+
+        <div class="rounded border-[#ddd] border-[1px] mt-[5px] text-[#333]">
+            <div class="bg-[#F5F5F5] ">
+                <span class="accordion py-[10px] px-[15px] block cursor-pointer leading-[1.1em]">
+                    <span class="tracking-[.03em] sm:text-[16px] text-[14px]">Налоги к уплате (кроме обязательных для всех: страховых взносов, НДФЛ, транспортного налога, НДПИ и т. п.)</span>
+                    <i class="fas fa-plus-circle sm:text-[16px] text-[14px]"></i>
+                </span>
+            </div>
+            <div class="accordion_tab border-t-[1px] border-t-[#ddd]">
+                <div class="p-[15px] mt-[20px] mb-[10px] leading-[26px] tracking-[.03em] sm:text-[16px] text-[14px]">Налог на прибыль – 20% (могут применяться пониженные ставки). НДС — 0%, 10% и 18% (могут применяться другие ставки). Налог на имущество организаций или налог на имущество физических лиц (ставки устанавливаются нормативными актами регионов и муниципальных образований) Ограничений нет</div>
+            </div>
+        </div>
+
+        <!-- list2 -->
+        <h2 class="for_start-up_ent_h2 pb-[13px] mt-[20px] mb-[10px] font-Raleway text-[#323232] sm:text-[26px] text-[20px] font-bold text-center tracking-[.03em] relative">УСН объект «Доходы»</h2>
+        <div class="rounded border-[#ddd] border-[1px] mt-[5px] text-[#333]">
+            <div class="bg-[#F5F5F5] ">
+                <span class="accordion py-[10px] px-[15px] block cursor-pointer leading-[1.1em]">
+                    <span class="tracking-[.03em] sm:text-[16px] text-[14px]">Условия применения</span>
+                    <i class="fas fa-plus-circle sm:text-[16px] text-[14px]"></i>
+                </span>
+            </div>
+            <div class="accordion_tab border-t-[1px] border-t-[#ddd]">
+                <div class="p-[15px] mt-[20px] mb-[10px] leading-[26px] tracking-[.03em] sm:text-[16px] text-[14px]">Ограничений нет</div>
+            </div>
+        </div>
+
+        <div class="rounded border-[#ddd] border-[1px] mt-[5px] text-[#333]">
+            <div class="bg-[#F5F5F5] ">
+                <span class="accordion py-[10px] px-[15px] block cursor-pointer leading-[1.1em]">
+                    <span class="tracking-[.03em] sm:text-[16px] text-[14px]">Налоги к уплате (кроме обязательных для всех: страховых взносов, НДФЛ, транспортного налога, НДПИ и т. п.)</span>
+                    <i class="fas fa-plus-circle sm:text-[16px] text-[14px]"></i>
+                </span>
+            </div>
+            <div class="accordion_tab border-t-[1px] border-t-[#ddd]">
+                <div class="p-[15px] mt-[20px] mb-[10px] leading-[26px] tracking-[.03em] sm:text-[16px] text-[14px]">Налог на прибыль – 20% (могут применяться пониженные ставки). НДС — 0%, 10% и 18% (могут применяться другие ставки). Налог на имущество организаций или налог на имущество физических лиц (ставки устанавливаются нормативными актами регионов и муниципальных образований) Ограничений нет</div>
+            </div>
+        </div>
+
+        <p class="mb-[10px] mt-[40px] text-[#333]">Правовая поддержка бизнеса</p>
+
+        <div class="text-[14px] leading-[26px] tracking-[.03em] text-[#333]">
+            <p class="mb-[10px]">Любой бизнес в наше время может столкнуться с проблемой правового и юридического характера, Волгоградский центр защиты и развития бизнеса «Дело» оказывает правовую поддержку вашему бизнесу. При Центре «Дело» работает общественная приемная, куда каждый месяц обращается более 30 представителей МСП по проблемным вопросам правового характера.</p>
+            <p class="mb-[10px]">В своей работе мы руководствуемся действующем законодательством и отраслью деятельности предприятия.</p>
+            <p class="mb-[10px]">При Центре «Дело»  работает АНО «Учебно-деловой центр», который  решает задачи и вопросы правового характера.</p>
+        </div>
+        
+    
+    </div>
+
+    <!--END CONTENT-->
+    
+
+
+    <div class="bg-[#12a0b1] py-[28px] px-[15px] mx-auto">
+        <div class="container mx-auto max-w-[1170px] p-0 text-center">
+            <p
+                class="font-Serif italic text-[1.75em] text-[#fff] inline-block m-0 leading-[0px] pr-0 relative top-[5px] tracking-[0.03em]">
+                У Вас есть вопросы или Вы хотите стать членом нашего центра? </p>
+            <a class="font-header-top font-medium uppercase text-[#282f39] inline-block bg-[#f6ba18] relative leading-[40px] pl-[27px] pr-[9px] text-[14px] ease-in-out tracking-[0.03em] rounded-[3px]"
+                href="/">Свяжитесь с нами
+                <i
+                    class="pl-[15px] pr-[7px] align-middle border-l-[1px] border-solid border-l-[#ffcd47] relative ml-[20px] text-[14px] fa fa-arrow-circle-right inline-block leading-[28px] after:w-[1px] after:h-[100%] after:bg-[#d7a41b] after:absolute after:left-[-2px] after:top-0"></i></a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="pt-[55px] pb-[34px] bg-[#212832] container-fluid">
+            <div class="container mx-auto max-w-[1170px] p-0">
+                <div class="grid grid-cols-12 -ml-[15px] -mr-[15px]">
+                    <div class="col-span-4 pr-[15px] pl-[15px] float-left pt-[12px]">
+                        <a href="#"><img class="align-middle" src="../img/logo-footer.png" alt="Logo"></a>
+                        <p class="text-[#cccccc] pt-[16px] leading-[25px] mb-[10px] text-[0.875em] tracking-[.03em]">
+                            Областная
+                            общественная организация
+                            «Волгоградский Центр защиты и развития бизнеса «Дело» оказывает поддержку малому и среднему
+                            предпринимательству Волгоградской области.</p>
+                        <p class="text-[#12a0b1] font-semibold text-[1.25em] mb-[10px]"><i
+                                class="fas fa-phone-alt"></i>&nbsp;&nbsp;
+                            <a class="text-[#12a0b1] font-semibold text-[1.25em] tracking-[.03em]"
+                                href="tel:+ 7(8442) 33-45-07">+
+                                7(8442) 33-45-07</a>
+                        </p>
+                        <p
+                            class="text-[#cccccc] text-[0.875em] italic pl-[27px] leading-[4px] mb-[10px] tracking-[.03em]">
+                            delo@list.ru</p>
+                        <ul class="p-0 mb-[10px]">
+                            <li class="inline-block mt-[33px]"><a
+                                    class="ml-[3px] block w-[32px] h-[32px] border-solid border-[#4a4a4a] border-[1px] rounded-[50%]"
+                                    href="http://vk.com/club74725177"><i
+                                        class="fab fa-vk mt-[7px] ml-[7px] text-[#cccccc]"></i></a>
+                            </li>
+                            <li class="inline-block mt-[33px]"><a
+                                    class="ml-[3px] block w-[32px] h-[32px] border-solid border-[#4a4a4a] border-[1px] rounded-[50%]"
+                                    href="https://t.me/centrdelo"><i
+                                        class="fas fa-paper-plane mt-[7px] ml-[7px] text-[#cccccc]"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-span-2 pr-[15px] pl-[15px] float-left">
+                        <h5 class="italic font-semibold text-[1.125em] text-[#fff] mt-[10px] mb-[10px]">О центре</h5>
+                        <ul class="text-[#cccccc] pt-[20px] leading-[25px] mb-[10px]">
+                            <li class="leading-[20px]"><a class="text-[0.875em] block mt-[14px] tracking-[.03em] "
+                                    href="http://centrdelo34.ru/index.php/novosti" bis_skin_checked="1">Новости</a></li>
+                            <li class="leading-[20px]"><a class="text-[0.875em] block mt-[14px] tracking-[.03em]"
+                                    href="http://centrdelo34.ru/index.php/o-tsentre/proekty"
+                                    bis_skin_checked="1">Проекты</a></li>
+                            <li class="leading-[20px]"><a class="text-[0.875em] block mt-[14px] tracking-[.03em]"
+                                    href="http://centrdelo34.ru/index.php/o-tsentre/nashi-partnery"
+                                    bis_skin_checked="1">Партнеры</a>
+                            </li>
+                            <li class="leading-[20px]"><a class="text-[0.875em] block mt-[14px] tracking-[.03em]"
+                                    href="http://centrdelo34.ru/index.php/o-tsentre/vakansii"
+                                    bis_skin_checked="1">Вакансии</a></li>
+                            <li class="leading-[20px]"><a class="text-[0.875em] block mt-[14px] tracking-[.03em]"
+                                    href="http://centrdelo34.ru/index.php/o-tsentre/fotogalereya"
+                                    bis_skin_checked="1">Фотогалерея</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-span-3 pr-[15px] pl-[15px] float-left">
+                        <h5 class="italic font-semibold text-[1.125em] text-[#fff] mt-[10px] mb-[10px]">Бизнесу</h5>
+                        <ul class="text-[#cccccc] pt-[20px] leading-[25px] mb-[10px]">
+                            <li class="leading-[20px]"><a class="text-[0.875em] block mt-[14px] tracking-[.03em]"
+                                    href="http://centrdelo34.ru/index.php/podderzhka-biznesa/shkola-biznesa-delo"
+                                    bis_skin_checked="1">Школа бизнеса</a></li>
+                            <li class="leading-[20px]"><a class="text-[0.875em] block mt-[14px] tracking-[.03em]"
+                                    href="http://centrdelo34.ru/index.php/podderzhka-biznesa/pravovaya-zashchita-biznesa"
+                                    bis_skin_checked="1">Правовая защита</a></li>
+                            <li class="leading-[20px]"><a class="text-[0.875em] block mt-[14px] tracking-[.03em]"
+                                    href="http://centrdelo34.ru/index.php/podderzhka-biznesa/biznes-planirovanie"
+                                    bis_skin_checked="1">Бизнес-планирование</a></li>
+                            <li class="leading-[20px]"><a class="text-[0.875em] block mt-[14px] tracking-[.03em]"
+                                    href="http://centrdelo34.ru/index.php/podderzhka-biznesa/subsidirovanie"
+                                    bis_skin_checked="1">Субсидирование</a></li>
+                            <li class="leading-[20px]"><a class="text-[0.875em] block mt-[14px] tracking-[.03em]"
+                                    href="http://centrdelo34.ru/index.php/podderzhka-biznesa/konsultirovanie-predprinimatelej"
+                                    bis_skin_checked="1">Консультирование</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-span-3 pr-[15px] pl-[83px] float-left">
+                        <h5 class="italic font-semibold text-[1.125em] text-[#fff] mt-[10px] mb-[10px]">Фотоотчеты</h5>
+                        <div class="mt-[43px] -ml-[5px] -mr-[5px]">
+                            <div class="">
+                                <a
+                                    href="http://www.centrdelo34.ru/index.php/o-tsentre/fotogalereya/album/40-31-marta-2016-goda-v-ramkakh-realizatsii-gosudarstvennoj-programmy-volgogradskoj-oblasti-ekonomicheskoe-razvitie-i-innovatsionnaya-ekonomika-na-2014-2016-gody-v-volgograde-proshel-regionalnyj-biznes-form-predprinimatelstvo-dvigatel-ekonomiki-v-ramkakh-for"><img
+                                        class="h-[64px] float-left mb-[5px] mx-[2.5px]" src="../img/photo_otchet1.jpg"
+                                        alt="img_0373.jpg" width="92" height="64"></a>
+
+                                <a
+                                    href="http://www.centrdelo34.ru/index.php/o-tsentre/fotogalereya/album/39-31marta-2016-goda-v-ramkakh-realizatsii-gosudarstvennoj-programmy-volgogradskoj-oblasti-ekonomicheskoe-razvitie-i-innovatsionnaya-ekonomika-na-2014-2016-gody-v-volgograde-proshel-regionalnyj-biznes-form-predprinimatelstvo-dvigatel-ekonomiki-v-ramkakh-foru"><img
+                                        class="h-[64px] float-left mb-[5px] mx-[2.5px]" src="../img/photo_otchet1.jpg"
+                                        alt="img_0373.jpg" width="92" height="64"></a>
+
+                                <a
+                                    href="http://www.centrdelo34.ru/index.php/o-tsentre/fotogalereya/album/38-28-marta-2016-goda-v-ramkakh-realizatsii-gosudarstvennoj-programmy-volgogradskoj-oblasti-ekonomicheskoe-razvitie-i-innovatsionnaya-ekonomika-v-zdanii-administratsii-frolovskogo-munitsipalnogo-rajona-volgogradskoj-oblasti-proshel-kruglyj-stol-na-temu-gosud"><img
+                                        class="h-[64px] float-left mb-[5px] mx-[2.5px]" src="../img/photo_otchet1.jpg"
+                                        alt="img_0373.jpg" width="92" height="64"></a>
+
+                                <a
+                                    href="http://www.centrdelo34.ru/index.php/o-tsentre/fotogalereya/album/37-30-marta-2016g-v-ramkakh-realizatsii-gosudarstvennoj-programmy-volgogradskoj-oblasti-ekonomicheskoe-razvitie-i-innovatsionnaya-ekonomika-proshel-seminar-otkroj-svojo-delo-dlya-nachinayushchikh-predprinimatelej-i-tekh-kto-zhelaet-otkryt-sobstvennoe-delo"><img
+                                        class="h-[64px] float-left mb-[5px] mx-[2.5px]" src="../img/photo_otchet1.jpg"
+                                        alt="img_0373.jpg" width="92" height="64"></a>
+
+                                <a
+                                    href="http://www.centrdelo34.ru/index.php/o-tsentre/fotogalereya/album/36-18-marta-2016g-gau-vo-volgogradskij-oblastnoj-biznes-inkubator-tsentr-podderzhki-predprinimatelstva-volgogradskij-tsentr-zashchity-i-razvitiya-biznesa-delo-proveli-kruglyj-stol-na-temu-sotsialnoe-predprinimatelstvo-effektivnye-instrumenty-podderzhki-i-pro"><img
+                                        class="h-[64px] float-left mb-[5px] mx-[2.5px]" src="../img/photo_otchet1.jpg"
+                                        alt="img_0373.jpg" width="92" height="64"></a>
+
+                                <a
+                                    href="http://www.centrdelo34.ru/index.php/o-tsentre/fotogalereya/album/35-14-marta-2016-goda-v-administratsii-staropoltavskogo-munitsipalnogo-rajona-sostoyalsya-kruglyj-stol-na-temu-gosudarstvennaya-podderzhka-malogo-i-srednego-predprinimatelstva-v-volgogradskoj-oblasti"><img
+                                        class="h-[64px] float-left mb-[5px] mx-[2.5px]" src="../img/photo_otchet1.jpg"
+                                        alt="img_0373.jpg" width="92" height="64"></a>
+
+                                <a
+                                    href="http://www.centrdelo34.ru/index.php/o-tsentre/fotogalereya/album/34-17-aprelya-v-belom-zale-pravitelstva-volgogradskoj-oblasti-pri-uchastii-vrio-gubernatora-volgogradskoj-oblasti-bocharova-andreya-ivanovicha-provedeno-soveshchanie-po-voprosu-razvitiya-malykh-formatov-torgovli-v-tom-chisle-nestatsionarnykh-torgovykh-ob-ekt"><img
+                                        class="h-[64px] float-left mb-[5px] mx-[2.5px]" src="../img/photo_otchet1.jpg"
+                                        alt="img_0373.jpg" width="92" height="64"></a>
+
+                                <a
+                                    href="http://www.centrdelo34.ru/index.php/o-tsentre/fotogalereya/album/32-8-iyulya-2015-goda-dan-start-proektu-moj-gorod-moya-semya-mojo-delo-priurochennogo-k-provedeniyu-vserossijskogo-dnya-semi-lyubvi-i-vernosti-gde-vpervye-byli-otmecheny-semi-sotsialno-aktivnykh-predprinimatelej-regiona"><img
+                                        class="h-[64px] float-left mb-[5px] mx-[2.5px]" src="../img/photo_otchet1.jpg"
+                                        alt="img_0373.jpg" width="92" height="64"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-[#1c222a]">
+            <div class="container mx-auto max-w-[1170px] flex justify-between">
+                <p class="m-0 text-[#cccccc] py-[30px] text-[0.875em] tracking-[.03em] leading-[26px]">
+                    © Областная общественная организация Волгоградский центр защиты и развития бизнеса "Дело", Волгоград
+                    2016 г
+                </p>
+                <p class="m-0 text-[#cccccc] py-[30px] text-[0.875em] tracking-[.03em] leading-[26px]">
+                    Разработано: ООО «Ваш бизнес»
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="./navbar.js"></script>
+
+    <!--accordion logic-->
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.parentNode.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          });
+        }
+    </script>
+    
+
+</body>
+
+</html>
