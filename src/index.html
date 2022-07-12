@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="../slick/slick-theme.css">
   <link rel="stylesheet" href="custom.css">
   <link rel="stylesheet" href="../fontawesome/css/all.css">
+  <link rel="stylesheet" href="../mCustomScrollbar/jquery.mCustomScrollbar.css">
 </head>
 
 <body class="bg-[#f7f8fa]">
@@ -40,9 +41,11 @@
           </div>
 
           <div class="search ml-5 mt-[1px]">
-            <input class="py-[1px] pl-[10px] pr-[2px] outline-0 outline-offset-0 text-[#01763f]  w-[215px] " type="text" placeholder="Текст для поиска...">
+            <input class="py-[1px] pl-[10px] pr-[2px] outline-0 outline-offset-0 text-[#01763f]  w-[215px] " type="text"
+              placeholder="Текст для поиска...">
           </div>
-          <div class="text-white text-lg ml-5 search-button" onclick="openSearch()"><i class="fa fa-search hover:text-[#01763f] cursor-pointer"></i></div>
+          <div class="text-white text-lg ml-5 search-button" onclick="openSearch()"><i
+              class="fa fa-search hover:text-[#01763f] cursor-pointer"></i></div>
         </div>
       </div>
 
@@ -125,17 +128,138 @@
       </div>
 
 
-      <div class="container mx-auto xl:max-w-[1170px] lg:max-w-[970px] md:max-w-[750px] max-w-none z-[99]">
+      <div class="container mx-auto xl:max-w-[1170px] lg:max-w-[970px] md:max-w-[750px] max-w-none">
 
         <div id="navbar" class="font-Roboto font-bold text-[0.9378em] uppercase bg-[#13A0B2] z-[99] relative inline-flex 
           md:w-auto w-full">
 
-          <div class="py-[18px] ml-6 xl:hidden xl:w-0 lg:w-[720px] md:w-[440px] w-[500px] block text-white">
+          <div
+            class="nav_burg_button py-[18px] ml-6 xl:hidden xl:w-0 lg:w-[720px] md:w-[440px] w-[500px] block text-white"
+            onclick="openNavbar()">
             <i class="fa fa-th text-3xl" aria-hidden="true"></i>
           </div>
 
+          <div class="navburger inactive absolute top-[100%] left-[5px] w-[99%] bg-[#13A0B2] font-bold font-Roboto leading-[26px]" id="navburger">
+            <ul class="pl-[15px] mCustomScrollbar max-h-[265px] pb-[22px]">
+              <li class="relative mini-nav">
+                <a class="relative text-white hover:text-[#323232] text-[12px] px-[22px] py-[10px] block" href="">Главная</a>
+              </li>
 
-          <div class="text-white xl:flex hidden py-[18px]">
+              <li class="relative mini-nav">
+                <a class="relative text-white hover:text-[#323232] text-[12px] px-[22px] py-[10px] block" 
+                href="">О Центре</a>
+                <i class="fas fa-bars text-white max-h-[20px] text-[24px] absolute top-[11px] right-[16px]" onclick="openSubMenuNavbar('nav-burg-sub-menu1')"></i>
+              
+                <div class="nav-burger-sub-menu px-[15px] relative z-[999] inactive" id="nav-burg-sub-menu1">
+                  <ul class="uppercase font-normal tracking-[.03em] font-OpenSans text-[13px]">
+
+                    <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+                      <a class="block pt-[8px] pb-[2px] md:pt-[16px] md:pb-[5px] md:text-[13px] text-[11px] w-full border-b-[1px] border-b-[#EBEBEB]" href="">
+                        <i class="fas fa-chevron-right text-[10px] pr-1"></i>
+                        Проекты, Отчеты
+                      </a>
+                    </li>
+  
+                    <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+                      <a class="block pt-[8px] pb-[2px] md:pt-[16px] md:pb-[5px] md:text-[13px] text-[11px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
+                          class="fas fa-chevron-right text-[10px] pr-2"></i>Фотогалерея</a>
+                    </li>
+                    <li class="bg-white text-[#242424] pl-[25px] pr-[20px] hover:text-[#F6BB19] duration-300 flex">
+                      <a class="block pt-[8px] pb-[2px] md:pt-[16px] md:pb-[5px] md:text-[13px] text-[11px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
+                          class="fas fa-chevron-right text-[10px] pr-2"></i>Учредительные документы</a>
+                    </li>
+                    <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+                      <a class="block pt-[8px] pb-[2px] md:pt-[16px] md:pb-[5px] md:text-[13px] text-[11px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
+                          class="fas fa-chevron-right text-[10px] pr-2"></i>Вакансии</a>
+                    </li>
+                    <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+  
+                      <a class="block py-[8px] md:py-[16px] md:text-[13px] text-[11px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
+                          class="fas fa-chevron-right text-[10px] pr-2"></i>Наши партнеры</a>
+                    </li>
+                  </ul>
+                </div>
+                
+              </li>
+
+              <li class="relative mini-nav">
+                <a class="relative text-white hover:text-[#323232] text-[12px] px-[22px] py-[10px] block" href="">Новости</a>
+              </li>
+
+              <li class="relative mini-nav">
+                <a class="relative text-white hover:text-[#323232] text-[12px] px-[22px] py-[10px] block" 
+                href="">Поддержка бизнеса</a>
+                <i class="fas fa-bars text-white max-h-[20px] text-[24px] absolute top-[11px] right-[16px]" onclick="openSubMenuNavbar('nav-burg-sub-menu2')"></i>
+              
+                <div class="nav-burger-sub-menu px-[15px] relative z-[999] inactive" id="nav-burg-sub-menu2">
+                  <ul class="uppercase font-normal tracking-[.03em] font-OpenSans text-[13px] md:flex">
+
+                    <div class="md:w-[49%] w-full">
+                      <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+                        <a class="block pt-[8px] pb-[2px] md:pt-[16px] md:pb-[5px] md:text-[13px] text-[11px] w-full border-b-[1px] border-b-[#EBEBEB]" href="">
+                          <i class="fas fa-chevron-right text-[10px] pr-1"></i>
+                          Бизнес-планирование
+                        </a>
+                      </li>
+  
+                      <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+                        <a class="block pt-[8px] pb-[2px] md:pt-[16px] md:pb-[5px] md:text-[13px] text-[11px] w-full border-b-[1px] border-b-[#EBEBEB]"
+                          href=""><i class="fas fa-chevron-right text-[10px] pr-2"></i>Начинающим предпринимателям</a>
+                      </li>
+                      <li class="bg-white text-[#242424] pl-[25px] pr-[20px] hover:text-[#F6BB19] duration-300 flex">
+                        <a class="block pt-[8px] pb-[2px] md:pt-[16px] md:pb-[5px] md:text-[13px] text-[11px] w-full border-b-[1px] border-b-[#EBEBEB]"
+                          href=""><i class="fas fa-chevron-right text-[10px] pr-2"></i>Консультирование
+                          предпринимателей</a>
+                      </li>
+                      <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+                        <a class="block py-[8px] md:py-[16px] md:text-[13px] text-[11px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
+                            class="fas fa-chevron-right text-[10px] pr-2"></i>Государственная поддержка</a>
+                      </li>
+                    </div>
+  
+                    <div class="md:w-[49%] w-full">
+                      <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+  
+                        <a class="block pt-[8px] pb-[2px] md:pt-[16px] md:pb-[5px] md:text-[13px] text-[11px] w-full border-b-[1px] border-b-[#EBEBEB]"
+                          href=""><i class="fas fa-chevron-right text-[10px] pr-2"></i>Правовая защита бизнеса</a>
+                      </li>
+  
+                      <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+  
+                        <a class="block pt-[8px] pb-[2px] md:pt-[16px] md:pb-[5px] md:text-[13px] text-[11px] w-full border-b-[1px] border-b-[#EBEBEB]"
+                          href=""><i class="fas fa-chevron-right text-[10px] pr-2"></i>Библиотека предпринимателя</a>
+                      </li>
+  
+                      <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+  
+                        <a class="block pt-[8px] pb-[2px] md:pt-[16px] md:pb-[5px] md:text-[13px] text-[11px] w-full border-b-[1px] border-b-[#EBEBEB]"
+                          href=""><i class="fas fa-chevron-right text-[10px] pr-2"></i>школа бизнеса "Делл"</a>
+                      </li>
+  
+                      <li class="bg-white text-[#242424] px-[25px] hover:text-[#F6BB19] duration-300 flex">
+  
+                        <a class="block py-[8px] md:py-[16px] md:text-[13px] text-[11px] w-full border-b-[1px] border-b-[#EBEBEB]" href=""><i
+                            class="fas fa-chevron-right text-[10px] pr-2"></i>Правовая информация</a>
+                      </li>
+                    </div>
+  
+                  </ul>
+                </div>
+                
+              </li>
+
+              <li class="relative mini-nav">
+                <a class="relative text-white hover:text-[#323232] text-[12px] px-[22px] py-[10px] block" href="">Наставничество</a>
+              </li>
+
+              <li class="relative mini-nav">
+                <a class="relative text-white hover:text-[#323232] text-[12px] px-[22px] py-[10px] block" href="">Контакты</a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="text-white xl:flex hidden py-[18px]"> 
             <div class="  hover:text-black duration-300">
               <a href="" class="float-left px-6 nav_link">Главная</a>
             </div>
@@ -612,8 +736,7 @@
 
           <div class="slide">
             <div class="xl:flex xl:text-justify text-center">
-              <img class="xl:block relative xl:left-0 sm:left-[45%] left-[30%] xl:pb-0 pb-[40px]"
-                src="">
+              <img class="xl:block relative xl:left-0 sm:left-[45%] left-[30%] xl:pb-0 pb-[40px]" src="">
               <div class="my-auto ml-8">
                 <p class="font-OpenSans text-lg font-bold tracking-wide">ООО Ваш бизнес</p>
                 <span>Зыков Дмитрий (Ген. директор)</span>
@@ -1320,25 +1443,17 @@
     </div>
   </footer>
 
-
-
-  <div class="div">
-    123123
-    123123
-    123123
-  </div>
-
-
-  <div class="btn btn-1 btn-1b">12313123123123123</div>
-
-
-
-
-
-
+  <!--navbar script -->
   <script src="./navbar.js"></script>
 
+  <!-- timers script -->
   <script src="./timerLauncher.js"></script>
+
+  <!-- mini navbar script -->
+  <script>var navburger = document.getElementById("navburger");</script>
+
+  <!-- custom scrollbar for mini navbar -->
+  <script src="../mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
 
 </body>
 

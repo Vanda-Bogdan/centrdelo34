@@ -85,9 +85,35 @@ function openTab(evt, tabName) {
   evt.currentTarget.className += " active";
 }
 
-
 //появление строки поиска
 function openSearch(){
   $('.search').addClass('search_visible');
   $('.search-button').addClass('hidden');
+}
+
+//клик по кнопке свернутого навбара
+
+function openNavbar() {
+
+  if (navburger.classList.contains("inactive")) {
+    navburger.classList.remove("inactive");
+    navburger.classList.add("active");
+  }
+  else {
+    navburger.classList.remove("active");
+    navburger.classList.add("inactive");
+  }
+}
+
+function openSubMenuNavbar(MenuName){
+  var menu = document.getElementById(MenuName);
+
+  if (menu.classList.contains("inactive")) {
+    menu.classList.remove("inactive");
+    menu.classList.add("active");
+  }
+  else {
+    menu.classList.remove("active");
+    menu.classList.add("inactive");
+  }
 }
