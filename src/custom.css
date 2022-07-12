@@ -373,7 +373,6 @@
     }
 }
 
-
 .for_start-up_ent_h2::before{
     content: '';
     width: 45px;
@@ -382,4 +381,27 @@
     position: absolute;
     bottom: 0;
     left: 48%;
+}
+
+.search{
+    display: none;
+    overflow: hidden;
+    max-width: 0%;
+    border-width: 1px;
+    border-color: transparent;
+}
+
+.search:focus-within{
+    border-radius: 0%;
+    border-color: #01763f;
+    border-width: 1px;
+}
+
+.search:focus-within > input::placeholder{
+    color: transparent;
+}
+
+.search_visible{
+    display: block;
+    max-width: 100%;
 }

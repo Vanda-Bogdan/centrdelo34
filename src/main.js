@@ -45,36 +45,6 @@ $(function () {
 
 
   //navbar group hovering
-  /*$('.bg-last-but').css('background-color', '#F6BB18');
-  $('.last-but').css('background-color', '#F6BB18');
-  $('.last-but').css('color', 'black');
-
-  
-  $('.bg-last-but').on('mouseover', function(){
-    $('.bg-last-but').css('background-color', 'black');
-    $('.last-but').css('background-color', 'black');
-    $('.last-but').af
-    $('.last-but').css('color', 'white');
-  })
-
-  $('.bg-last-but').on('mouseout', function(){
-    $('.bg-last-but').css('background-color', '#F6BB18');
-    $('.last-but').css('background-color', '#F6BB18');
-    $('.last-but').css('color', 'black');
-  })
-
-  $('.last-but').on('mouseover', function(){
-    $('.last-but').css('background-color', 'black');
-    $('.bg-last-but').css('background-color', 'black');
-    $('.last-but').css('color', 'white');
-  })
-
-  $('.last-but').on('mouseout', function(){
-    $('.last-but').css('background-color', '#F6BB18');
-    $('.bg-last-but').css('background-color', '#F6BB18');
-    $('.last-but').css('color', 'black');
-  })*/
-
   $('.bg-last-but').on('mouseover', function(){
     $('.bg-last-but').addClass('hovered');
     $('.last-but').addClass('hovered');
@@ -113,4 +83,11 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   document.getElementById(tabName).className += " fade";
   evt.currentTarget.className += " active";
+}
+
+
+//появление строки поиска
+function openSearch(){
+  $('.search').addClass('search_visible');
+  $('.search-button').addClass('hidden');
 }
