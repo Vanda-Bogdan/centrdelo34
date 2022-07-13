@@ -24,13 +24,13 @@
     border-width: 1px;
   }
 
-.welcome_details h3:before {
+h3.welcome_details:before {
     content: '';
     width: 45px;
     height: 3px;
     background: #f6ba18;
     position: absolute;
-    top: 70px;
+    top: 50px;
 }
 
 .we_are_opacity {
@@ -446,8 +446,4 @@ div.navburger li.mini-nav:before{
 
     max-height: 265px;
     transition: max-height 0.5s linear;
-}
-
-@media (max-width: 640px) {
-    
 }
