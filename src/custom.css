@@ -82,14 +82,19 @@ h3.we_are:before{
     background-color: #f1f1f1;
 }
   
-  /* Style the tab content */
-  .tabcontent {
+/* Style the tab content */
+.tabcontent {
     display: none;
-     
 }
 
-.tabcontent.block{
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.tabcontent.active{
     display: block;
+    animation: fadeEffect .35s ease-in; 
 }
 
 .tablinks {
@@ -113,18 +118,6 @@ h3.we_are:before{
 .tablinks.active:hover {
     background-color: #12a0b1;
 }
-
-
-.tabcontent{
-    opacity: 0;
-    transition-duration: .15s;
-    transition-property: opacity;
-}
-
-.tabcontent.fade{
-    opacity: 1;
-}
-
 
 .nav_link {
     border-right: 1px dashed rgba(255, 255, 255, 0.4);
@@ -471,4 +464,24 @@ div.navburger li.mini-nav:before{
 
 .why_me{
     border-right: 1px dashed #6e6e6e;
+}
+
+h2.about_us:before{
+    content: '';
+    width: 45px;
+    height: 3px;
+    background: #f6ba18;
+    position: absolute;
+    top: 40px;
+    left: -2px;
+}
+
+h2.achiev:before{
+    content: '';
+    width: 45px;
+    height: 3px;
+    background: #f6ba18;
+    position: absolute;
+    top: 44px;
+    left: -2px;
 }
