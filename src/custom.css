@@ -19,18 +19,31 @@
 }
 
 
-
 .border-1 {
     border-width: 1px;
-  }
+}
 
-h3.welcome_details:before {
-    content: '';
-    width: 45px;
-    height: 3px;
-    background: #f6ba18;
-    position: absolute;
-    top: 50px;
+
+@media (max-width: 767px) {
+    h3.welcome_details:before {
+        content: '';
+        width: 45px;
+        height: 3px;
+        background: #f6ba18;
+        position: absolute;
+        top: 35px;
+    }
+}
+ 
+@media (min-width: 768px) {
+    h3.welcome_details:before {
+        content: '';
+        width: 45px;
+        height: 3px;
+        background: #f6ba18;
+        position: absolute;
+        top: 50px;
+    }
 }
 
 .we_are_opacity {
