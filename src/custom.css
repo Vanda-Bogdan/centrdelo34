@@ -54,6 +54,27 @@ h3.welcome_details:before {
     letter-spacing: .03em;
 }
 
+h2.we_are:before  {
+    content: '';
+    width: 45px;
+    height: 3px;
+    background: #f6ba18;
+    position: absolute;
+    top: 70px;
+    left: 8px;
+}
+
+h3.we_are:before{
+    content: '';
+    width: 45px;
+    height: 3px;
+    background: #f6ba18;
+    position: absolute;
+    top: 43px;
+    left: 8px;
+}
+
+
 /* Style the tab */
 .tab {
     overflow: hidden;
@@ -446,4 +467,8 @@ div.navburger li.mini-nav:before{
 
     max-height: 265px;
     transition: max-height 0.5s linear;
+}
+
+.why_me{
+    border-right: 1px dashed #6e6e6e;
 }
