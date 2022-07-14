@@ -14,5 +14,5 @@ module.exports = {
       'we_are_h': '31.875rem',
     }
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography'),],
 }
