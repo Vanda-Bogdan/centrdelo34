@@ -607,3 +607,13 @@ h2.join:before{
     top: 42px;
     left: 48%;
 }
+
+.header_i:after{
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 12px;
+    width: 1px;
+    height: 40%;
+    background: #CFCFD0;
+}
