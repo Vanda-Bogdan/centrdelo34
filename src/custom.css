@@ -617,3 +617,70 @@ h2.join:before{
     height: 40%;
     background: #CFCFD0;
 }
+
+
+@media (min-width: 1024px) {
+    h2.business_prot:before{
+        content: '';
+        width: 45px;
+        height: 3px;
+        background: #f6ba18;
+        position: absolute;
+        top: 42px;
+        left: 48%;
+    }
+}
+
+h2.business_prot:before{
+    content: '';
+    width: 45px;
+    height: 3px;
+    background: #f6ba18;
+    position: absolute;
+    top: 52px;
+    left: 48%;
+}
+
+@media (min-width: 1024px) {
+    h2.join2:before{
+        content: '';
+        width: 45px;
+        height: 3px;
+        background: #f6ba18;
+        position: absolute;
+        top: 42px;
+        left: 48%;
+    }
+}
+
+h2.join2:before{
+    content: '';
+    width: 45px;
+    height: 3px;
+    background: #f6ba18;
+    position: absolute;
+    top: 56px;
+    left: 48%;
+}
+
+@media (min-width: 1024px) {
+    h2.support:before{
+        content: '';
+        width: 45px;
+        height: 3px;
+        background: #f6ba18;
+        position: absolute;
+        top: 42px;
+        left: 48%;
+    }
+}
+
+h2.support:before{
+    content: '';
+    width: 45px;
+    height: 3px;
+    background: #f6ba18;
+    position: absolute;
+    top: 76px;
+    left: 48%;
+}
