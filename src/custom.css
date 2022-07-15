@@ -684,3 +684,56 @@ h2.support:before{
     top: 76px;
     left: 48%;
 }
+
+
+.main_slide_inactive > .slider_sub_text_up1, .main_slide_inactive > .slider_sub_text_up2, .main_slide_inactive > .slider_sub_text_up3 {
+    transform: translateY(50%);
+    opacity: 0;
+    transition: transform 0.01s linear, opacity 0.01s linear;
+
+}
+
+.main_slide_active > .slider_sub_text_up1{
+    transform: translateY(0%);
+    opacity: 1;
+    transition: transform 0.15s linear 0.8s, opacity 0.05s linear 0.75s;
+}
+
+.main_slide_active > .slider_sub_text_up2{
+    transform: translateY(0%);
+    opacity: 1;
+    transition: transform 0.15s linear 1.5s, opacity 0.05s linear 1.45s;
+}
+
+.main_slide_active > .slider_sub_text_up3{
+    transform: translateY(0%);
+    opacity: 1;
+    transition: transform 0.15s linear 1.8s, opacity 0.05s linear 1.75s;
+}
+
+.main_slide_inactive  .slider_sub_text_right  {
+    transform: translateX(-20%);
+    opacity: 0;
+    transition: transform 0.01s linear, opacity 0.01s linear;
+
+}
+
+.main_slide_inactive  .slider_sub_text_left  {
+    transform: translateX(20%);
+    opacity: 0;
+    transition: transform 0.01s linear, opacity 0.01s linear;
+
+}
+
+.main_slide_active  .slider_sub_text_right    {
+    transform: translateX(0%);
+    opacity: 1;
+    transition: transform 0.15s linear 1.8s, opacity 0.05s linear 1.75s;
+
+}
+
+.main_slide_active  .slider_sub_text_left{
+    transform: translateX(0%);
+    opacity: 1;
+    transition: transform 0.15s linear 2s, opacity 0.05s linear 1.95s;
+}
