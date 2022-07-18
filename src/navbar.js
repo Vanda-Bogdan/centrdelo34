@@ -37,6 +37,7 @@ function stickNavBar() {
     back_nav.classList.remove("flex");
     //back_nav.classList.replace(" flex", " hidden")
     dontUpdate=false;
+    UpdateOffsetPos();
   }
 }
 
