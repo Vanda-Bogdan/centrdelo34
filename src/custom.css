@@ -708,7 +708,7 @@ h2.support:before{
 .main_slide_active > .slider_sub_text_up3{
     transform: translateY(0%);
     opacity: 1;
-    transition: transform 0.15s linear 1.8s, opacity 0.05s linear 1.75s;
+    transition: transform 0.15s linear 1.8s, opacity 0.05s linear 1.75s, background-color 0.3s linear, color 0.3s linear;
 }
 
 .main_slide_inactive  .slider_sub_text_right  {
@@ -728,12 +728,16 @@ h2.support:before{
 .main_slide_active  .slider_sub_text_right    {
     transform: translateX(0%);
     opacity: 1;
-    transition: transform 0.15s linear 1.8s, opacity 0.05s linear 1.75s;
+    transition: transform 0.15s linear 1.8s, opacity 0.05s linear 1.75s, background-color 0.3s linear, color 0.3s linear;
 
 }
 
 .main_slide_active  .slider_sub_text_left{
     transform: translateX(0%);
     opacity: 1;
-    transition: transform 0.15s linear 2s, opacity 0.05s linear 1.95s;
+    transition: transform 0.15s linear 2s, opacity 0.05s linear 1.95s, background-color 0.3s linear, color 0.3s linear;
+}
+
+.main_slide_active  .slider_sub_text_left:hover,.main_slide_active  .slider_sub_text_right:hover,.main_slide_active > .slider_sub_text_up3:hover {
+    transition: background-color 0.3s linear, color 0.3s linear;
 }
